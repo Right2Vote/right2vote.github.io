@@ -1,0 +1,63 @@
+@font-face {
+	font-family: DINNextLTPro-Regular;
+	src: url(../fonts/DINNextLTPro-Regular.otf);
+}
+
+@font-face {
+	font-family: DINNextLTPro-Bold;
+	src: url(../fonts/DINNextLTPro-Bold.otf);
+}
+
+@font-face {
+	font-family: DINNextLTPro-Medium;
+	src: url(../fonts/DINNextLTPro-Medium.otf);
+}
+
+@font-face {
+  font-family: pier-regular;
+  src: url(../fonts/pier-regular.otf);
+}
+
+@font-face {
+  font-family: pier-bold;
+  src: url(../fonts/pier-regular.otf);
+}
+
+
+body {
+  font-family: pier-regular;
+  font-size: 1.8em;
+}
+
+.headline {
+  font-family: pier-bold;
+  text-align: center;
+}
+
+.supporting-statement {
+  font-family: DINNextLTPro-Medium;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  background-color: #F37021;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 100px;
+  color: white;
+  border: none; 
+  font-size: 1.5em;
+  margin: 0 auto; 
+  display: block;
+  margin-bottom: 20px;
+}
+
+.urgency-statement {
+  text-align: center;
+}
+
+strong {
+  font-family: DINNextLTPro-Bold;
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>2015 Election </title>
+
+    <link rel="icon" type="image/png" href="img/pivot_favicon.png">
+    
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+        <script src="js/jquery.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+  </head>
+  <body> 
+    <div class="container">
+      <h2 class="headline">Voting Rules Have Changed, and It's Much Harder to Vote in the 2015 Election</h2>
+      <h2 class="supporting-statement">We're here to help you out.</h2>
+      
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5">
+          <p>
+            Many things have quietly changed since Canada's last federal Election. Did you know that:
+            <ul>
+              <li>You need to register to vote by October 13th</i></li>
+              <li>Your voter registration card doens't count as ID</li>
+              <li>Your ID needs to have your <strong>current address</strong></li>
+            </ul>
+          </p>
+        </div>
+        <div class="col-sm-5">
+          <button class="cta-button">
+            Get Started
+          </button>
+          <p class="urgency-statement" id="urgency-statement">
+            Voter registration closes in <strong id="registration-countdown"></strong>.
+            
+            <script type="text/javascript">
+               $("#registration-countdown")
+                .countdown("2015/10/13", function(event) {
+                  $(this).text(
+                    event.strftime('%D days %H hours, %M minutes, %S seconds')
+                  );
+                });
+            </script>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
