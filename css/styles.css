@@ -1,5 +1,5 @@
 /*--------------------
-        FONTS
+FONTS
 --------------------*/
 @font-face {
   font-family: DINNextLTPro-Regular;
@@ -33,7 +33,8 @@ body {
   font-size: 1.8em; }
 
 .bullet-info-area {
-  padding-top: 30px; }
+  padding-left: 20px;
+  padding-right: 20px; }
 
 .cta-area {
   background-color: #DAECF6;
@@ -64,13 +65,13 @@ strong {
   font-family: DINNextLTPro-Bold; }
 
 /*--------------------
-    COLOR CLASSES
+COLOR CLASSES
 --------------------*/
 .white {
   color: white; }
 
 /*--------------------
-    HELPER CLASSES
+HELPER CLASSES
 --------------------*/
 .pad {
   padding: 20px; }
@@ -78,8 +79,13 @@ strong {
 .pad-top-and-bottom {
   padding: 40px 0px 40px 0px; }
 
+.flex-container {
+  display: flex; }
+  .flex-container .flex-vcenter {
+    align-self: center; }
+
 /*--------------------
-    SPLASH SCREEN
+SPLASH SCREEN
 --------------------*/
 .splash {
   height: 100vh; }
@@ -89,6 +95,8 @@ strong {
     width: 100%;
     height: 100%;
     z-index: -2; }
+    .splash .background video {
+      height: 100%; }
   .splash .fader {
     width: 100%;
     height: 100%;
@@ -97,7 +105,8 @@ strong {
     position: absolute;
     z-index: -1; }
   .splash .splash-text {
-    max-width: 900px; }
+    max-width: 900px;
+    margin: auto; }
     .splash .splash-text .headline {
       font-family: FuturaLT-Bold;
       text-align: center;
@@ -107,9 +116,3 @@ strong {
       text-align: center;
       margin-bottom: 40px;
       color: white; }
-
-.flex-container {
-  display: flex; }
-  .flex-container .flex-vcenter {
-    align-self: center;
-    margin: auto; }

@@ -9,10 +9,10 @@
 
     <link rel="icon" type="image/png" href="img/pivot_favicon.png">
 
-    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
 </head>
 <body>
     <div class="container-fluid">
@@ -21,7 +21,11 @@
         <div class="row splash flex-container">
 
             <div class="fader"></div>
-            <div class="background"></div>
+            <div class="background">
+                <video autoplay loop controls="false">
+                    <source src="../img/backgroundvid.mp4" type="video/mp4" />
+                </video>
+            </div>
 
             <div class="splash-text flex-vcenter pad">
                 <h2 class="headline">
@@ -42,9 +46,8 @@
 
 
         <!--Info-->
-        <div class="row pad-top-and-bottom">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-5">
+        <div class="row info">
+            <div class="col-sm-6 pad-top-and-bottom">
                 <div class="bullet-info-area">
                     <p>
                         Many things have quietly changed since Canada's last federal Election. Did you know that:
@@ -56,7 +59,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-sm-5">
+            <div class="col-sm-6 pad-top-and-bottom">
                 <div class="cta-area">
                     <p class="pre-cta">The list goes on. Are you ready?</p>
 
