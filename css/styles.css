@@ -23,21 +23,58 @@
   src: url(../fonts/pier-regular.otf);
 }
 
+@font-face {
+  font-family: FuturaLT-ExtraBold;
+  src: url(../fonts/FuturaLT-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: FuturaLT-Bold;
+  src: url(../fonts/FuturaLT-Bold.ttf);
+}
+
+@font-face {
+  font-family: FuturaLT-Light;
+  src: url(../fonts/FuturaLT-Light.ttf);
+}
+
+@font-face {
+  font-family: FuturaLT;
+  src: url(../fonts/FuturaLT.ttf);
+}
+
+
 
 body {
-  font-family: pier-regular;
+  font-family: FuturaLT-Light;
   font-size: 1.8em;
 }
 
 .headline {
-  font-family: pier-bold;
+  font-family: FuturaLT-Bold;
   text-align: center;
 }
 
 .supporting-statement {
-  font-family: DINNextLTPro-Medium;
+  font-family: FuturaLT;
   text-align: center;
   margin-bottom: 40px;
+}
+
+.bullet-info-area {
+  padding-top: 30px;
+}
+
+.cta-area {
+  background-color: #DAECF6;
+  padding: 30px 30px;
+}
+
+.pre-cta {
+  font-family: FuturaLT;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 15px;
 }
 
 .cta-button {
