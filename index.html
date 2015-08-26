@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -8,58 +8,83 @@
     <title>Right to Vote</title>
 
     <link rel="icon" type="image/png" href="img/pivot_favicon.png">
-    
+
     <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-        <script src="js/jquery.js"></script>
+    <script src="js/jquery.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
-  </head>
-  <body> 
-    <div class="container">
-      <h2 class="headline">Voting Rules Have Changed - It's Harder to Vote in the 2015 Election</h2>
-      <h2 class="supporting-statement">We'll help you fight for your Right to Vote</h2>
-      
-      <div class="row">
-        <div class="col-sm-1"></div>
-        <div class="col-sm-5">
-          <div class="bullet-info-area">
-            <p>
-              Many things have quietly changed since Canada's last federal Election. Did you know that:
-              <ul>
-                <li>Your voter registration card doesn't count as ID</li>
-                <li>Your ID needs to have your <strong>current address</strong></li>
-                <li>You can only vouch for one other person's identity</li>
-              </ul>
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-5">
-          <div class="cta-area">
-            <p class="pre-cta">The list goes on. Are you ready?</p>
-            
-            <button class="btn cta-button">
-              Get Started
-            </button>
-            <p class="urgency-statement" id="urgency-statement">
-              Voter registration closes in <strong id="registration-countdown"></strong>.
+</head>
+<body>
+    <div class="container-fluid">
 
-              <script type="text/javascript">
-                 $("#registration-countdown")
-                  .countdown("2015/10/13", function(event) {
-                    $(this).text(
-                      event.strftime('%D days %H hours, %M minutes, %S seconds')
-                    );
-                  });
-              </script>
-            </p>
-            
-          </div>   
+        <!--Splash-->
+        <div class="row splash flex-container">
+
+            <div class="fader"></div>
+            <div class="background"></div>
+
+            <div class="splash-text flex-vcenter pad">
+                <h2 class="headline">
+                    Voting Rules Have Changed - It's Harder to Vote in the 2015 Election
+                </h2>
+
+                <h2 class="supporting-statement">
+                    We'll help you fight for your Right to Vote
+                </h2>
+
+                <button class="btn cta-button">
+                    Get Started
+                </button>
+            </div>
+
+
         </div>
-      </div>
+
+
+        <!--Info-->
+        <div class="row pad-top-and-bottom">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <div class="bullet-info-area">
+                    <p>
+                        Many things have quietly changed since Canada's last federal Election. Did you know that:
+                        <ul>
+                            <li>Your voter registration card doesn't count as ID</li>
+                            <li>Your ID needs to have your <strong>current address</strong></li>
+                            <li>You can only vouch for one other person's identity</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="cta-area">
+                    <p class="pre-cta">The list goes on. Are you ready?</p>
+
+                    <button class="btn cta-button">
+                        Get Started
+                    </button>
+                    <p class="urgency-statement" id="urgency-statement">
+                        Voter registration closes in <strong id="registration-countdown"></strong>.
+
+                        <script type="text/javascript">
+                        $("#registration-countdown")
+                        .countdown("2015/10/13", function(event) {
+                            $(this).text(
+                                event.strftime('%D days %H hours, %M minutes, %S seconds')
+                            );
+                        });
+                        </script>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+    <!--Container End-->
     </div>
 
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  </body>
+</body>
 </html>

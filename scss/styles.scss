@@ -1,0 +1,185 @@
+/*--------------------
+        FONTS
+--------------------*/
+
+@font-face {
+	font-family: DINNextLTPro-Regular;
+	src: url(../fonts/DINNextLTPro-Regular.otf);
+}
+
+@font-face {
+	font-family: DINNextLTPro-Bold;
+	src: url(../fonts/DINNextLTPro-Bold.otf);
+}
+
+@font-face {
+	font-family: DINNextLTPro-Medium;
+	src: url(../fonts/DINNextLTPro-Medium.otf);
+}
+
+@font-face {
+  font-family: pier-regular;
+  src: url(../fonts/pier-regular.otf);
+}
+
+@font-face {
+  font-family: pier-bold;
+  src: url(../fonts/pier-regular.otf);
+}
+
+@font-face {
+  font-family: FuturaLT-ExtraBold;
+  src: url(../fonts/FuturaLT-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: FuturaLT-Bold;
+  src: url(../fonts/FuturaLT-Bold.ttf);
+}
+
+@font-face {
+  font-family: FuturaLT-Light;
+  src: url(../fonts/FuturaLT-Light.ttf);
+}
+
+@font-face {
+  font-family: FuturaLT;
+  src: url(../fonts/FuturaLT.ttf);
+}
+
+
+
+
+
+
+
+
+
+body {
+  font-family: FuturaLT-Light;
+  font-size: 1.8em;
+}
+
+.bullet-info-area {
+  padding-top: 30px;
+}
+
+.cta-area {
+  background-color: #DAECF6;
+  padding: 30px 30px;
+}
+
+.pre-cta {
+  font-family: FuturaLT;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.cta-button {
+  background-color: #F37021;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 100px;
+  color: white;
+  border: none;
+  font-size: 1.5em;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.urgency-statement {
+  text-align: center;
+}
+
+strong {
+  font-family: DINNextLTPro-Bold;
+}
+
+
+
+
+
+
+/*--------------------
+    COLOR CLASSES
+--------------------*/
+
+.white {
+    color: white;
+}
+
+
+
+
+/*--------------------
+    HELPER CLASSES
+--------------------*/
+
+.pad {
+    padding: 20px;
+}
+
+.pad-top-and-bottom {
+    padding: 40px 0px 40px 0px
+}
+
+
+
+
+
+
+
+
+/*--------------------
+    SPLASH SCREEN
+--------------------*/
+
+.splash {
+    height: 100vh;
+
+    .background {
+        background: url('../img/happypeople.jpg') center center;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+    }
+
+    .fader {
+        width: 100%;
+        height: 100%;
+        background: black;
+        opacity: 0.7;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .splash-text {
+
+        max-width: 900px;
+
+        .headline {
+          font-family: FuturaLT-Bold;
+          text-align: center;
+          color: white;
+        }
+
+        .supporting-statement {
+          font-family: FuturaLT;
+          text-align: center;
+          margin-bottom: 40px;
+          color: white;
+        }
+    }
+}
+
+.flex-container {
+    display: flex;
+
+    .flex-vcenter {
+        align-self: center;
+        margin:auto;
+    }
+}
