@@ -73,7 +73,8 @@ UNORGANIZED
   margin-bottom: 20px; }
 
 .urgency-statement {
-  text-align: center; }
+  text-align: center;
+  color: white; }
 
 strong {
   font-family: DINNextLTPro-Bold; }
@@ -129,7 +130,7 @@ SPLASH SCREEN
     position: absolute;
     z-index: -1; }
   .splash .splash-text {
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto; }
     .splash .splash-text .headline {
       font-family: FuturaLT-Bold;

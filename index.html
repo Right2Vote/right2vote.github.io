@@ -34,16 +34,30 @@
 
             <div class="splash-text flex-vcenter pad">
                 <h2 class="headline">
-                    Voting Rules Have Changed - It's Harder to Vote in the 2015 Election
+                    Think you're ready to vote in the 2015 Canadian Election?
                 </h2>
 
                 <h2 class="supporting-statement">
-                    We'll help you fight for your Right to Vote
+                    <strong>You might not be.</strong> The requirements have changed.
                 </h2>
 
-                <button class="btn cta-button">
-                    Get Started
-                </button>
+                        <button class="btn cta-button">
+                            Get the Election Survival Guide
+                        </button>
+                        <p class="urgency-statement" id="urgency-statement">
+                            Hurry! Online voter registration closes in <strong id="registration-countdown"></strong>.
+
+                            <script type="text/javascript">
+                            $("#registration-countdown")
+                            .countdown("2015/10/13", function(event) {
+                                $(this).text(
+                                    event.strftime('%D days %H hours, %M minutes, %S seconds')
+                                );
+                            });
+                            </script>
+                        </p>
+
+                    
             </div>
 
         </div>
@@ -54,7 +68,7 @@
 
             <!--Above the fold-->
             <div class="row pad-top-and-bottom">
-                <h2 class="center">The change most likely to affect you is needing an ID with address on it</h2>
+                <h2 class="center">The biggest change: you need an ID with your <strong>current address</strong></h2>
             </div>
             <!--Above the fold End-->
 
@@ -96,36 +110,26 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="bullet-info-area">
+                      <h2>This is just the tip of the iceberg. </h2>
                         <p>
-                            Many things have quietly changed since Canada's last federal Election. Did you know that:
+                            Did you know that:
                             <ul>
-                                <li>Your voter registration card doesn't count as ID</li>
-                                <li>Your ID needs to have your <strong>current address</strong></li>
-                                <li>You can only vouch for one other person's identity</li>
+                                <li>The geogrpahical layouts of the ridings have changed.</li>
+                                <li>Elections Canada is limited in its ability to promote voting.</li>
+                                <li>You can no longer vouch for multiple people's identities.</li>
                             </ul>
                         </p>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="cta-area">
-                        <p class="pre-cta">The list goes on. Are you ready?</p>
+                        <p class="pre-cta">We're looking into these issues so you don't have to.</p>
 
                         <button class="btn cta-button">
-                            Get Started
+                            Sign Up
                         </button>
-                        <p class="urgency-statement" id="urgency-statement">
-                            Voter registration closes in <strong id="registration-countdown"></strong>.
-
-                            <script type="text/javascript">
-                            $("#registration-countdown")
-                            .countdown("2015/10/13", function(event) {
-                                $(this).text(
-                                    event.strftime('%D days %H hours, %M minutes, %S seconds')
-                                );
-                            });
-                            </script>
-                        </p>
-
+                        
+                      <p class="pre-cta">We won't spam you. We're here to help.</p>
                     </div>
                 </div>
             </div>
