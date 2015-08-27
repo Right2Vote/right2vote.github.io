@@ -1,6 +1,23 @@
 /*--------------------
 COLORS
 --------------------*/
+.color1-background {
+  color: white;
+  background: #05668D; }
+
+.color2-background {
+  color: white;
+  background: #028090; }
+
+.color3-background {
+  background: #00A896; }
+
+.color4-background {
+  background: #e9e9e9; }
+
+.color5-background {
+  background: #C24600; }
+
 /*--------------------
 FONTS
 --------------------*/
@@ -39,9 +56,10 @@ body {
   font-size: 1.8em; }
 
 .row {
-  background: white;
   padding-top: 20px;
   padding-bottom: 20px; }
+  .row.no-pad {
+    padding: 0px; }
 
 /*--------------------
 UNORGANIZED
@@ -151,7 +169,12 @@ POINTS
     margin: 10px; }
     .point-container .point-inner .point-box {
       padding: 10px;
-      border: 1px solid black; }
+      border: 1px solid black;
+      text-align: center; }
+      .point-container .point-inner .point-box img {
+        width: 100%; }
+      .point-container .point-inner .point-box div {
+        padding-top: 10px; }
 
 .share-container {
   text-align: center; }
