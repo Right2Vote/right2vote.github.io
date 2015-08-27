@@ -1,4 +1,41 @@
 /*--------------------
+COLORS
+--------------------*/
+
+$color1: #05668D;
+$color1-shadow: darken($color1, 10%);
+$color1-highlight: lighten($color1, 10%);
+
+$color2: #028090;
+$color2-shadow: darken($color1, 10%);
+$color2-highlight: lighten($color1, 10%);
+
+$color3: #00A896;
+$color3-shadow: darken($color1, 10%);
+$color3-highlight: lighten($color1, 10%);
+
+$color4: #02C39A;
+$color4-shadow: darken($color1, 10%);
+$color4-highlight: lighten($color1, 10%);
+
+$color5: #C24600;
+$color5-shadow: darken($color1, 10%);
+$color5-highlight: lighten($color1, 10%);
+
+
+$primary: $color1;
+$primary-shadow: #000000;
+$primary-highlight: #000000;
+
+$secondary: $color1;
+$secondary-shadow: $color1-shadow;
+$secondary-highlight: $color1-highlight;
+
+$highlight: #000000;
+$highlight-shadow: #000000;
+
+
+/*--------------------
 FONTS
 --------------------*/
 
@@ -51,14 +88,28 @@ FONTS
 
 
 
-
-
-
+/*--------------------
+DEFAULTS
+--------------------*/
 
 body {
     font-family: FuturaLT-Light;
     font-size: 1.8em;
 }
+
+.row {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+/*--------------------
+UNORGANIZED
+--------------------*/
 
 .bullet-info-area {
     padding-left: 20px;
@@ -118,6 +169,10 @@ COLOR CLASSES
 HELPER CLASSES
 --------------------*/
 
+.center {
+    text-align: center;
+}
+
 .pad {
     padding: 20px;
 }
@@ -144,7 +199,10 @@ SPLASH SCREEN
 --------------------*/
 
 .splash {
-    height: 100vh;
+    height: 80vh;
+    overflow: hidden;
+    position: relative; //needed to make overflow work
+    background: none;
 
     .background {
 
@@ -157,7 +215,11 @@ SPLASH SCREEN
         z-index: -2;
 
         video {
-            height: 100%;
+            position: absolute;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1000;
+            overflow: hidden;
         }
     }
 
@@ -187,5 +249,39 @@ SPLASH SCREEN
             margin-bottom: 40px;
             color: white;
         }
+    }
+}
+
+
+
+/*--------------------
+POINTS
+--------------------*/
+
+.point-container {
+
+    min-height: 100%;
+
+    .point-inner{
+        margin: 10px;
+
+
+        .point-box {
+            padding: 10px;
+            border: 1px solid black;
+        }
+    }
+}
+
+
+.share-container {
+    text-align: center;
+
+    .stButton, ,stMainServices {
+        height: inherit;
+    }
+
+    .stButton_gradient  {
+        height: inherit;
     }
 }

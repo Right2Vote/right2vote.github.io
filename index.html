@@ -9,6 +9,11 @@
 
     <link rel="icon" type="image/png" href="img/pivot_favicon.png">
 
+    <!--ShareThis scripts-->
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "c3405ab0-bfab-4ba7-9cf3-620fa04548d6", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
     <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -18,7 +23,7 @@
     <div class="container-fluid">
 
         <!--Splash-->
-        <div class="row splash flex-container">
+        <div class="splash row flex-container">
 
             <div class="fader"></div>
             <div class="background">
@@ -41,53 +46,145 @@
                 </button>
             </div>
 
-
         </div>
+        <!--Splash Section End-->
 
 
-        <!--Info-->
-        <div class="row info">
-            <div class="col-sm-6 pad-top-and-bottom">
-                <div class="bullet-info-area">
-                    <p>
-                        Many things have quietly changed since Canada's last federal Election. Did you know that:
-                        <ul>
-                            <li>Your voter registration card doesn't count as ID</li>
-                            <li>Your ID needs to have your <strong>current address</strong></li>
-                            <li>You can only vouch for one other person's identity</li>
-                        </ul>
-                    </p>
+        <div class="container">
+
+            <!--Above the fold-->
+            <div class="row pad-top-and-bottom">
+                <h2 class="center">The change most likely to affect you is needing an ID with address on it</h2>
+            </div>
+            <!--Above the fold End-->
+
+            <!--Three Point-->
+            <div class="row pad-top-and-bottom">
+                <div class="point-container col-sm-4">
+                    <div class="point-inner">
+                        <div class="point-box">
+                            Voter registration card doesn't count
+                        </div>
+
+                        Unlike last time
+                    </div>
+                </div>
+                <div class="point-container col-sm-4">
+                    <div class="point-inner">
+                        <div class="point-box">
+                            Government IDs and Driver's Licenses do diddly do
+                        </div>
+
+                        Moved recently?  Probably don't have one of these.
+                    </div>
+                </div>
+                <div class="point-container col-sm-4">
+                    <div class="point-inner">
+                        <div class="point-box">
+                            So does your lease, bills, etc.
+                        </div>
+
+                        Of the 34 alternate pieces, we've listed the most easily attained ones.
+                    </div>
+                </div>
+
+            </div>
+            <!--Three Point Section End-->
+
+
+            <!--Iceberg Section-->
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="bullet-info-area">
+                        <p>
+                            Many things have quietly changed since Canada's last federal Election. Did you know that:
+                            <ul>
+                                <li>Your voter registration card doesn't count as ID</li>
+                                <li>Your ID needs to have your <strong>current address</strong></li>
+                                <li>You can only vouch for one other person's identity</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="cta-area">
+                        <p class="pre-cta">The list goes on. Are you ready?</p>
+
+                        <button class="btn cta-button">
+                            Get Started
+                        </button>
+                        <p class="urgency-statement" id="urgency-statement">
+                            Voter registration closes in <strong id="registration-countdown"></strong>.
+
+                            <script type="text/javascript">
+                            $("#registration-countdown")
+                            .countdown("2015/10/13", function(event) {
+                                $(this).text(
+                                    event.strftime('%D days %H hours, %M minutes, %S seconds')
+                                );
+                            });
+                            </script>
+                        </p>
+
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6 pad-top-and-bottom">
-                <div class="cta-area">
-                    <p class="pre-cta">The list goes on. Are you ready?</p>
+            <!--Iceberg Section End-->
 
-                    <button class="btn cta-button">
-                        Get Started
-                    </button>
-                    <p class="urgency-statement" id="urgency-statement">
-                        Voter registration closes in <strong id="registration-countdown"></strong>.
+            <!--Share Section-->
+            <div class="row">
 
-                        <script type="text/javascript">
-                        $("#registration-countdown")
-                        .countdown("2015/10/13", function(event) {
-                            $(this).text(
-                                event.strftime('%D days %H hours, %M minutes, %S seconds')
-                            );
-                        });
-                        </script>
-                    </p>
+                <div>
+                    <h2 class="center">
+                        Spread the word.  We want to inform everyone, so no one gets left in the cold.
+                    </h2>
+                </div>
 
+                <br/>
+
+                <div class="share-container">
+                    <span class='st_sharethis_vcount' displayText='ShareThis'></span>
+                    <span class='st_facebook_vcount' displayText='Facebook'></span>
+                    <span class='st_twitter_vcount' displayText='Tweet'></span>
+                    <span class='st_pinterest_vcount' displayText='Pinterest'></span>
+                    <span class='st_reddit_vcount' displayText='Reddit'></span>
+                    <span class='st_email_vcount' displayText='Email'></span>
                 </div>
             </div>
-        </div>
+            <!--Share Section End-->
 
-    <!--Container End-->
+            <!--Get Involved Section-->
+            <div class="row">
+                <h2 class="center">
+                    You've got the Right2Vote
+                </h2>
+
+                <button class="btn cta-button">
+                    Get Involved
+                </button>
+
+                <h3 class="center">
+                    We always need more help
+                </h3>
+            </div>
+            <!--Get Involved Section End-->
+
+            <!--Organization Section-->
+            <div class="row center">
+                Copyright 2015 the Yolo Committee
+            </div>
+            <!--Organization Section End-->
+
+
+        </div>
+        <!--Inner container end-->
+
+
     </div>
+    <!--Main Container End-->
 
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,4 +1,7 @@
 /*--------------------
+COLORS
+--------------------*/
+/*--------------------
 FONTS
 --------------------*/
 @font-face {
@@ -28,10 +31,21 @@ FONTS
 @font-face {
   font-family: FuturaLT;
   src: url(../fonts/FuturaLT.ttf); }
+/*--------------------
+DEFAULTS
+--------------------*/
 body {
   font-family: FuturaLT-Light;
   font-size: 1.8em; }
 
+.row {
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/*--------------------
+UNORGANIZED
+--------------------*/
 .bullet-info-area {
   padding-left: 20px;
   padding-right: 20px; }
@@ -73,6 +87,9 @@ COLOR CLASSES
 /*--------------------
 HELPER CLASSES
 --------------------*/
+.center {
+  text-align: center; }
+
 .pad {
   padding: 20px; }
 
@@ -88,7 +105,10 @@ HELPER CLASSES
 SPLASH SCREEN
 --------------------*/
 .splash {
-  height: 100vh; }
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+  background: none; }
   .splash .background {
     background: url("../img/happypeople.jpg") center center;
     position: absolute;
@@ -96,7 +116,11 @@ SPLASH SCREEN
     height: 100%;
     z-index: -2; }
     .splash .background video {
-      height: 100%; }
+      position: absolute;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1000;
+      overflow: hidden; }
   .splash .fader {
     width: 100%;
     height: 100%;
@@ -116,3 +140,21 @@ SPLASH SCREEN
       text-align: center;
       margin-bottom: 40px;
       color: white; }
+
+/*--------------------
+POINTS
+--------------------*/
+.point-container {
+  min-height: 100%; }
+  .point-container .point-inner {
+    margin: 10px; }
+    .point-container .point-inner .point-box {
+      padding: 10px;
+      border: 1px solid black; }
+
+.share-container {
+  text-align: center; }
+  .share-container .stButton, .share-container stMainServices {
+    height: inherit; }
+  .share-container .stButton_gradient {
+    height: inherit; }
