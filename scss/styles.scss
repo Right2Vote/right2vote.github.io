@@ -18,7 +18,7 @@ $color4: #e9e9e9;
 $color4-shadow: darken($color4, 10%);
 $color4-highlight: lighten($color4, 10%);
 
-$color5: #F37021;
+$color5: #ff00b5;
 $color5-shadow: darken($color5, 10%);
 $color5-highlight: lighten($color5, 10%);
 
@@ -130,6 +130,13 @@ UNORGANIZED
     padding-left: 20px;
     padding-right: 20px;
     color: white;
+    text-size: 1.3em;
+}
+
+.iceberg-orphan h2 {
+    text-align: center;
+    color: white;
+    
 }
 
 .cta-area {

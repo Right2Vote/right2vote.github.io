@@ -18,7 +18,7 @@ COLORS
   height: 1000px; }
 
 .color5-background {
-  background: #F37021; }
+  background: #ff00b5; }
 
 /*--------------------
 FONTS
@@ -69,6 +69,11 @@ UNORGANIZED
 .bullet-info-area {
   padding-left: 20px;
   padding-right: 20px;
+  color: white;
+  text-size: 1.3em; }
+
+.iceberg-orphan h2 {
+  text-align: center;
   color: white; }
 
 .cta-area {
@@ -123,12 +128,12 @@ button {
   color: white;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
-  background: #F37021;
+  background: #ff00b5;
   border: 0;
-  border-bottom: 2px solid #d5580c;
+  border-bottom: 2px solid #cc0091;
   cursor: pointer;
-  -webkit-box-shadow: inset 0 -2px #d5580c;
-  box-shadow: inset 0 -2px #d5580c; }
+  -webkit-box-shadow: inset 0 -2px #cc0091;
+  box-shadow: inset 0 -2px #cc0091; }
 
 button:active {
   top: 1px;
