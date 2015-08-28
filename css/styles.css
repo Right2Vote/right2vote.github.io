@@ -18,7 +18,7 @@ COLORS
   height: 1000px; }
 
 .color5-background {
-  background: #C24600; }
+  background: #F37021; }
 
 /*--------------------
 FONTS
@@ -81,18 +81,6 @@ UNORGANIZED
   font-size: 1.5em;
   margin-bottom: 15px; }
 
-.cta-button {
-  background-color: #F37021;
-  padding-left: 30px;
-  padding-right: 30px;
-  height: 100px;
-  color: white;
-  border: none;
-  font-size: 1.5em;
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 20px; }
-
 .urgency-statement {
   text-align: center;
   color: white; }
@@ -115,6 +103,9 @@ HELPER CLASSES
 .pad {
   padding: 20px; }
 
+.add-margin-bottom {
+  margin-bottom: 20px; }
+
 .pad-top-and-bottom {
   padding: 40px 0px 40px 0px; }
 
@@ -122,6 +113,28 @@ HELPER CLASSES
   display: flex; }
   .flex-container .flex-vcenter {
     align-self: center; }
+
+button {
+  position: relative;
+  vertical-align: top;
+  height: 60px;
+  padding: 0px 30px 0px 30px;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #F37021;
+  border: 0;
+  border-bottom: 2px solid #d5580c;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #d5580c;
+  box-shadow: inset 0 -2px #d5580c; }
+
+button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
 
 /*--------------------
 SPLASH SCREEN
@@ -160,7 +173,7 @@ SPLASH SCREEN
     .splash .splash-text .supporting-statement {
       font-family: FuturaLT;
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 20px;
       color: white; }
 
 /*--------------------
