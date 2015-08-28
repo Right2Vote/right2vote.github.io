@@ -13,7 +13,9 @@ COLORS
   background: #00A896; }
 
 .color4-background {
-  background: #e9e9e9; }
+  /*background: $color4;*/
+  background-image: url(../img/iceberg.jpg);
+  height: 1000px; }
 
 .color5-background {
   background: #C24600; }
@@ -66,10 +68,11 @@ UNORGANIZED
 --------------------*/
 .bullet-info-area {
   padding-left: 20px;
-  padding-right: 20px; }
+  padding-right: 20px;
+  color: white; }
 
 .cta-area {
-  background-color: #DAECF6;
+  background-color: rgba(218, 236, 246, 0.5);
   padding: 30px 30px; }
 
 .pre-cta {
