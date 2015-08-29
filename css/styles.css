@@ -216,6 +216,14 @@ POINTS
   .share-container .stButton_gradient {
     height: inherit; }
 
-.iceberg-background {
-  background-image: url(../img/iceberg.jpg) top center;
+.iceberg {
+  position: relative;
+  background-image: url(../img/iceberg.jpg);
+  background-position: top center;
   background-size: cover; }
+  .iceberg .iceberg-bottom {
+    bottom: 50px;
+    position: absolute;
+    width: 100%;
+    padding: 30px;
+    margin: auto; }
