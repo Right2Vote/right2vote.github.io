@@ -57,8 +57,18 @@ $color5-highlight: lighten($color5, 10%);
 
 
 /*--------------------
-FONTS
+DEFAULTS
 --------------------*/
+
+.row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
 
 body {
     font-family: "Roboto";
@@ -69,6 +79,8 @@ body {
 
 h1, h2 {
     font-family: "Oswald";
+    line-height: 1.3em;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -81,19 +93,6 @@ h4 {
 
 
 
-
-/*--------------------
-DEFAULTS
---------------------*/
-
-.row {
-    padding-top: 50px;
-    padding-bottom: 50px;
-
-    &.no-pad {
-        padding: 0px;
-    }
-}
 
 
 
@@ -174,17 +173,12 @@ HELPER CLASSES
     text-align: right;
 }
 
-.block-center {
-    display: block;
-    margin: 0 auto;
-}
-
 .pad {
     padding: 20px;
 }
 
 .add-margin-bottom {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .pad-top-and-bottom {
@@ -198,6 +192,25 @@ HELPER CLASSES
         align-self: center;
     }
 }
+
+.no-pad {
+    padding: 0px;
+}
+
+.no-pad-top {
+    padding-top: 0px;
+}
+
+.no-pad-bottom {
+    padding-bottom: 0px;
+}
+
+.no-bottom {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
 
 
 
@@ -218,6 +231,9 @@ button {
     -webkit-box-shadow: inset 0 -2px $color5-shadow;
     box-shadow: inset 0 -2px $color5-shadow;
     border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
 }
 
 button:active {
@@ -357,10 +373,11 @@ POINTS
         width: 100%;
         padding: 30px;
         margin:auto;
-
-        .quote {
-            padding-right: 60px;
-            font-weight: 200;
-        }
     }
+}
+
+.quote {
+    padding-right: 60px;
+    font-weight: 200;
+    line-height: 1.4em;
 }
