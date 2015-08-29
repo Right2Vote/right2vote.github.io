@@ -13,8 +13,6 @@ COLORS
   background: #00A896; }
 
 .color4-background {
-  /*background: $color4;*/
-  background-image: url(../img/iceberg.jpg);
   height: 1000px; }
 
 .color5-background {
@@ -189,6 +187,12 @@ SPLASH SCREEN
       margin-bottom: 20px;
       color: white; }
 
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  height: 0; }
+
 /*--------------------
 POINTS
 --------------------*/
@@ -211,3 +215,7 @@ POINTS
     height: inherit; }
   .share-container .stButton_gradient {
     height: inherit; }
+
+.iceberg-background {
+  background-image: url(../img/iceberg.jpg) top center;
+  background-size: cover; }

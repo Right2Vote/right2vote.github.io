@@ -16,6 +16,7 @@
 
     <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -35,16 +36,6 @@
                     <li>
                         <a href="#">Option1</a>
                     </li>
-                    <!-- <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li> -->
                     <li>
                         <a href="#">OPtion2</a>
                     </li>
@@ -66,9 +57,7 @@
 
             <div class="fader"></div>
             <div class="background">
-                <video autoplay loop controls="false">
-                    <source src="../img/backgroundvid.mp4" type="video/mp4" />
-                </video>
+
             </div>
 
             <div class="splash-text flex-vcenter center pad">
@@ -80,23 +69,37 @@
                     <strong>You might not be.</strong> The requirements have changed.
                 </h2>
 
-                <button class="add-margin-bottom">
-                    Get the Election Survival Guide
-                </button>
+                <div class="container-fluid">
 
-                <p class="urgency-statement" id="urgency-statement">
-                    Hurry! Online voter registration closes in <strong id="registration-countdown"></strong>.
+                    <div class="col-md-6 white">
+                        <h3>Peep this quick, informative video from the CFS.</h3>
+                        <br/>
+                        <div class="fitvid videoWrapper">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ht_sOeGJJG4" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
 
-                    <script type="text/javascript">
-                    $("#registration-countdown")
-                    .countdown("2015/10/13", function(event) {
-                        $(this).text(
-                            event.strftime('%D days %H hours, %M minutes, %S seconds')
-                        );
-                    });
-                    </script>
-                </p>
+                    <div class="col-md-6">
+                        <h3 class="white">Don't worry, we've got your back.  We'll help you sign up.</h3>
+                        <br/>
+                        <button class="add-margin-bottom">
+                            Get the Election Survival Guide
+                        </button>
 
+                        <p class="urgency-statement" id="urgency-statement">
+                            Hurry! Online voter registration closes in <strong id="registration-countdown"></strong>.
+
+                            <script type="text/javascript">
+                            $("#registration-countdown")
+                            .countdown("2015/10/13", function(event) {
+                                $(this).text(
+                                    event.strftime('%D days %H hours, %M minutes, %S seconds')
+                                );
+                            });
+                            </script>
+                        </p>
+                    </div>
+                </div>
 
             </div>
 
@@ -168,7 +171,7 @@
 
 
         <!--Iceberg Section-->
-        <div class="row color4-background">
+        <div class="row color4-background iceberg-background">
             <div class="container">
                 <div class="col-sm-6">
                     <div class="bullet-info-area">
@@ -196,7 +199,7 @@
                     </div>
                 </div>
             </div>
-        
+
 
         </div>
         <!--Iceberg Section End-->
@@ -206,7 +209,7 @@
             <div class="container">
                 <div>
                     <h2 class="center">
-                        Help us spread the word. We're trying to help as many Canadians vote as possible. 
+                        Help us spread the word. We're trying to help as many Canadians vote as possible.
                     </h2>
                 </div>
 
@@ -220,9 +223,9 @@
                     <span class='st_reddit_vcount' displayText='Reddit'></span>
                     <span class='st_email_vcount' displayText='Email'></span>
                 </div>
-                    
-                                        
-                    <h3 class="center">You don't want your friends to get left out in the cold, do you?</h3>
+
+
+                <h3 class="center">You don't want your friends to get left out in the cold, do you?</h3>
             </div>
         </div>
         <!--Share Section End-->
@@ -231,15 +234,15 @@
         <div class="row color2-background">
             <div class="container">
 
-                
-                                <h3 class="center">
-                    Think you've got something to bring to the table? 
+
+                <h3 class="center">
+                    Think you've got something to bring to the table?
                 </h3>
 
                 <button class="block-center">
                     Get Involved
                 </button>
-                
+
                 <h3 class="center">We're vegan-friendly <strong>;)</strong></h3>
 
 
@@ -249,9 +252,9 @@
 
         <!--Organization Section-->
         <div class="row center color1-background">
-                <h2>
-                    Protect your <strong>Right to Vote</strong>
-                </h2>
+            <h2>
+                Protect your <strong>Right to Vote</strong>
+            </h2>
         </div>
         <!--Organization Section End-->
 
@@ -266,5 +269,13 @@
     <script src="bower_components/bootstrap/js/collapse.js"></script>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
+    <script src="bower_components/FitVids/jquery.fitvids.js"></script>
+    <script>
+    $(document).ready(function(){
+        // Target your .container, .wrapper, .post, etc.
+        $(".fitvid").fitVids();
+    });
+    </script>
+
 </body>
 </html>

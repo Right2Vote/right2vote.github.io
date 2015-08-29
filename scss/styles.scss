@@ -38,8 +38,6 @@ $color5-highlight: lighten($color5, 10%);
 }
 
 .color4-background {
-    /*background: $color4;*/
-    background-image:url(../img/iceberg.jpg);
     height: 1000px;
 }
 
@@ -315,6 +313,12 @@ SPLASH SCREEN
     }
 }
 
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+}
+
 
 
 /*--------------------
@@ -358,4 +362,11 @@ POINTS
     }
 
 
+}
+
+
+
+.iceberg-background {
+    background-image: url(../img/iceberg.jpg) top center;
+    background-size: cover;
 }
