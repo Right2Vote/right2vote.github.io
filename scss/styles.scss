@@ -2,24 +2,28 @@
 COLORS
 --------------------*/
 
-$color1: #05668D;
+$color1: #CEEC97;
+
 $color1-shadow: darken($color1, 10%);
 $color1-highlight: lighten($color1, 10%);
 
-$color2: #028090;
+$color2: #F4B393;
 $color2-shadow: darken($color2, 10%);
 $color2-highlight: lighten($color2, 10%);
 
-$color3: #00A896;
+$color3: #7A28CB;
 $color3-shadow: darken($color3, 10%);
 $color3-highlight: lighten($color3, 10%);
 
-$color4: #e9e9e9;
+//Dark Color
+$color4: #494368;
+$color4-alpha: rgba($color4, 0.9);
 $color4-shadow: darken($color4, 10%);
 $color4-highlight: lighten($color4, 10%);
 
 //Button color
 $color5: #ff00b5;
+$color5-alpha: rgba($color5, 0.8);
 $color5-shadow: darken($color5, 10%);
 $color5-highlight: lighten($color5, 10%);
 
@@ -38,7 +42,13 @@ $color5-highlight: lighten($color5, 10%);
 }
 
 .color4-background {
-    height: 1000px;
+    background: $color4;
+    color: white;
+}
+
+.color4-shadow-background {
+    background: $color4-shadow;
+    color: white;
 }
 
 .color5-background {
@@ -50,51 +60,24 @@ $color5-highlight: lighten($color5, 10%);
 FONTS
 --------------------*/
 
-@font-face {
-    font-family: DINNextLTPro-Regular;
-    src: url(../fonts/DINNextLTPro-Regular.otf);
+body {
+    font-family: "Roboto";
+    font-size: 1.8em;
+    font-weight: 200;
+    line-height: 1.5em;
 }
 
-@font-face {
-    font-family: DINNextLTPro-Bold;
-    src: url(../fonts/DINNextLTPro-Bold.otf);
+h1, h2 {
+    font-family: "Oswald";
 }
 
-@font-face {
-    font-family: DINNextLTPro-Medium;
-    src: url(../fonts/DINNextLTPro-Medium.otf);
+h3 {
+    font-weight: 200;
 }
 
-@font-face {
-    font-family: pier-regular;
-    src: url(../fonts/pier-regular.otf);
+h4 {
+    font-weight: 200;
 }
-
-@font-face {
-    font-family: pier-bold;
-    src: url(../fonts/pier-regular.otf);
-}
-
-@font-face {
-    font-family: FuturaLT-ExtraBold;
-    src: url(../fonts/FuturaLT-ExtraBold.ttf);
-}
-
-@font-face {
-    font-family: FuturaLT-Bold;
-    src: url(../fonts/FuturaLT-Bold.ttf);
-}
-
-@font-face {
-    font-family: FuturaLT-Light;
-    src: url(../fonts/FuturaLT-Light.ttf);
-}
-
-@font-face {
-    font-family: FuturaLT;
-    src: url(../fonts/FuturaLT.ttf);
-}
-
 
 
 
@@ -103,14 +86,9 @@ FONTS
 DEFAULTS
 --------------------*/
 
-body {
-    font-family: FuturaLT-Light;
-    font-size: 1.8em;
-}
-
 .row {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
     &.no-pad {
         padding: 0px;
@@ -124,12 +102,10 @@ body {
 NAV BAR
 --------------------*/
 
-nav {
-    ul {
-        li {
+header.navbar {
+    background: $color4-alpha;
 
-        }
-    }
+    border-bottom: $color4-highlight 1px solid;
 }
 
 
@@ -170,10 +146,6 @@ UNORGANIZED
     color: white;
 }
 
-strong {
-    font-family: DINNextLTPro-Bold;
-}
-
 
 
 
@@ -196,6 +168,10 @@ HELPER CLASSES
 
 .center {
     text-align: center;
+}
+
+.right {
+    text-align: right;
 }
 
 .block-center {
@@ -368,9 +344,12 @@ POINTS
 
 .iceberg {
     position:relative;
-    background-image: url(../img/iceberg.jpg);
+    background-image: url(../img/iceberg-overlay.png);
+
     background-position: top center;
     background-size: cover;
+
+    height: 1000px;
 
     .iceberg-bottom {
         bottom: 50px;
@@ -378,5 +357,10 @@ POINTS
         width: 100%;
         padding: 30px;
         margin:auto;
+
+        .quote {
+            padding-right: 60px;
+            font-weight: 200;
+        }
     }
 }

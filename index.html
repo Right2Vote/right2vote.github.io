@@ -9,13 +9,10 @@
 
     <link rel="icon" type="image/png" href="img/pivot_favicon.png">
 
-    <!--ShareThis scripts-->
-    <script type="text/javascript">var switchTo5x=true;</script>
-    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-    <script type="text/javascript">stLight.options({publisher: "c3405ab0-bfab-4ba7-9cf3-620fa04548d6", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-
     <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300|Roboto:300,300italic,500italic,500' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -61,11 +58,11 @@
             </div>
 
             <div class="splash-text flex-vcenter center pad">
-                <h2 class="headline">
+                <h2 class="white">
                     Think you're ready to vote in the 2015 Canadian Election?
                 </h2>
 
-                <h2 class="supporting-statement">
+                <h2 class="white">
                     <strong>You might not be.</strong> The requirements have changed.
                 </h2>
 
@@ -88,15 +85,6 @@
 
                         <p class="urgency-statement" id="urgency-statement">
                             Hurry! Online voter registration closes in <strong id="registration-countdown"></strong>.
-
-                            <script type="text/javascript">
-                            $("#registration-countdown")
-                            .countdown("2015/10/13", function(event) {
-                                $(this).text(
-                                    event.strftime('%D days %H hours, %M minutes, %S seconds')
-                                );
-                            });
-                            </script>
                         </p>
                     </div>
                 </div>
@@ -190,20 +178,29 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="cta-area center">
-                            <p class="pre-cta">We're looking into these issues so you don't have to.</p>
+                            <h2 class="">We're looking into these issues so you don't have to.</h2>
 
                             <button class="add-margin-bottom">
                                 Sign Up
                             </button>
 
-                            <p class="pre-cta">We won't spam you. We're here to help.</p>
+                            <h2>We won't spam you. We're here to help.</h2>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row center white iceberg-bottom">
-                <h2>“It is essential to understand that the main challenge for our electoral democracy is not voter fraud, but voter participation. I do not believe that if we eliminate vouching and the [information card] as a proof of address, we will have in any way improved the integrity of the voting process. However, we will have taken away the ability of many qualified electors to vote.” - Marc Mayrand, Chief Electoral Officer of Elections Canada</h2>
+            <div class="row white iceberg-bottom">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                    <h2 class="quote">
+                        “It is essential to understand that the main challenge for our electoral democracy is not voter fraud, but voter participation. I do not believe that if we eliminate vouching and the [information card] as a proof of address, we will have in any way improved the integrity of the voting process. However, we will have taken away the ability of many qualified electors to vote.”
+                    </h2>
+                    <h4 class="right">
+                         - Marc Mayrand, Chief Electoral Officer of Elections Canada
+                    </h4>
+                </div>
+                <div class="col-sm-1"></div>
             </div>
 
         </div>
@@ -236,7 +233,7 @@
         <!--Share Section End-->
 
         <!--Get Involved Section-->
-        <div class="row color2-background">
+        <div class="row color4-background">
             <div class="container">
 
 
@@ -256,7 +253,7 @@
         <!--Get Involved Section End-->
 
         <!--Organization Section-->
-        <div class="row center color1-background">
+        <div class="row center color4-shadow-background">
             <h2>
                 Protect your <strong>Right to Vote</strong>
             </h2>
@@ -270,17 +267,31 @@
 
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/bootstrap/js/collapse.js"></script>
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
     <script src="bower_components/FitVids/jquery.fitvids.js"></script>
     <script>
-    $(document).ready(function(){
-        // Target your .container, .wrapper, .post, etc.
-        $(".fitvid").fitVids();
-    });
+        //FITVIDS INIT
+        $(document).ready(function(){
+            // Target your .container, .wrapper, .post, etc.
+            $(".fitvid").fitVids();
+        });
+
+        //COUNTDOWN INIT
+        $("#registration-countdown")
+        .countdown("2015/10/13", function(event) {
+            $(this).text(
+                event.strftime('%D days %H hours, %M minutes, %S seconds')
+            );
+        });
     </script>
+
+    <!--ShareThis scripts-->
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "c3405ab0-bfab-4ba7-9cf3-620fa04548d6", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 
 </body>
 </html>

@@ -10463,6 +10463,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/iceberg-overlay.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.26656e+06,
+		"inputAbbreviatedPath": "\/img\/iceberg-overlay.png",
+		"outputAbbreviatedPath": "\/img\/iceberg-overlay.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/iceberg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -10470,6 +10481,17 @@
 		"initialSize": 293055,
 		"inputAbbreviatedPath": "\/img\/iceberg.jpg",
 		"outputAbbreviatedPath": "\/img\/iceberg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pasted_image_at_2015_08_29_04_34_pm_360.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9120,
+		"inputAbbreviatedPath": "\/img\/pasted_image_at_2015_08_29_04_34_pm_360.png",
+		"outputAbbreviatedPath": "\/img\/pasted_image_at_2015_08_29_04_34_pm_360.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

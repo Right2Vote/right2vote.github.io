@@ -3,17 +3,22 @@ COLORS
 --------------------*/
 .color1-background {
   color: white;
-  background: #05668D; }
+  background: #CEEC97; }
 
 .color2-background {
   color: white;
-  background: #028090; }
+  background: #F4B393; }
 
 .color3-background {
-  background: #00A896; }
+  background: #7A28CB; }
 
 .color4-background {
-  height: 1000px; }
+  background: #494368;
+  color: white; }
+
+.color4-shadow-background {
+  background: #332f49;
+  color: white; }
 
 .color5-background {
   background: #ff00b5; }
@@ -21,49 +26,37 @@ COLORS
 /*--------------------
 FONTS
 --------------------*/
-@font-face {
-  font-family: DINNextLTPro-Regular;
-  src: url(../fonts/DINNextLTPro-Regular.otf); }
-@font-face {
-  font-family: DINNextLTPro-Bold;
-  src: url(../fonts/DINNextLTPro-Bold.otf); }
-@font-face {
-  font-family: DINNextLTPro-Medium;
-  src: url(../fonts/DINNextLTPro-Medium.otf); }
-@font-face {
-  font-family: pier-regular;
-  src: url(../fonts/pier-regular.otf); }
-@font-face {
-  font-family: pier-bold;
-  src: url(../fonts/pier-regular.otf); }
-@font-face {
-  font-family: FuturaLT-ExtraBold;
-  src: url(../fonts/FuturaLT-ExtraBold.ttf); }
-@font-face {
-  font-family: FuturaLT-Bold;
-  src: url(../fonts/FuturaLT-Bold.ttf); }
-@font-face {
-  font-family: FuturaLT-Light;
-  src: url(../fonts/FuturaLT-Light.ttf); }
-@font-face {
-  font-family: FuturaLT;
-  src: url(../fonts/FuturaLT.ttf); }
+body {
+  font-family: "Roboto";
+  font-size: 1.8em;
+  font-weight: 200;
+  line-height: 1.5em; }
+
+h1, h2 {
+  font-family: "Oswald"; }
+
+h3 {
+  font-weight: 200; }
+
+h4 {
+  font-weight: 200; }
+
 /*--------------------
 DEFAULTS
 --------------------*/
-body {
-  font-family: FuturaLT-Light;
-  font-size: 1.8em; }
-
 .row {
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
   .row.no-pad {
     padding: 0px; }
 
 /*--------------------
 NAV BAR
 --------------------*/
+header.navbar {
+  background: rgba(73, 67, 104, 0.9);
+  border-bottom: #5f5787 1px solid; }
+
 /*--------------------
 UNORGANIZED
 --------------------*/
@@ -91,9 +84,6 @@ UNORGANIZED
   text-align: center;
   color: white; }
 
-strong {
-  font-family: DINNextLTPro-Bold; }
-
 /*--------------------
 COLOR CLASSES
 --------------------*/
@@ -105,6 +95,9 @@ HELPER CLASSES
 --------------------*/
 .center {
   text-align: center; }
+
+.right {
+  text-align: right; }
 
 .block-center {
   display: block;
@@ -218,12 +211,16 @@ POINTS
 
 .iceberg {
   position: relative;
-  background-image: url(../img/iceberg.jpg);
+  background-image: url(../img/iceberg-overlay.png);
   background-position: top center;
-  background-size: cover; }
+  background-size: cover;
+  height: 1000px; }
   .iceberg .iceberg-bottom {
     bottom: 50px;
     position: absolute;
     width: 100%;
     padding: 30px;
     margin: auto; }
+    .iceberg .iceberg-bottom .quote {
+      padding-right: 60px;
+      font-weight: 200; }
