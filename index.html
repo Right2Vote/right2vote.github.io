@@ -57,35 +57,39 @@
 
             </div>
 
-            <div class="splash-text flex-vcenter center pad">
-                <h2 class="white">
-                    Think you're ready to vote in the 2015 Canadian Election?
-                </h2>
+            <div class="container">
+                <div class="row center no-pad-bottom">
+                    <h2 class="white">
+                        Think you're ready to vote in the 2015 Canadian Election?
+                    </h2>
 
-                <h2 class="white">
-                    <strong>You might not be.</strong> The requirements have changed.
-                </h2>
+                    <h2 class="white">
+                        <strong>You might not be.</strong> The requirements have changed.
+                    </h2>
+                </div>
 
-                <div class="container-fluid">
+                <div class="row call-to-action color4-shadow-background">
 
-                    <div class="col-md-6 white">
-                        <h3>Peep this quick, informative video from the CFS.</h3>
-                        <br/>
+                    <div class="col-sm-8 vid-col">
                         <div class="fitvid videoWrapper">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/ht_sOeGJJG4" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
 
-                    <div class="col-md-6">
-                        <h3 class="white">Don't worry, we've got your back.  We'll help you sign up.</h3>
+                    <div class="col-sm-4">
+                        <h3 class="white center">Don't worry, we've got your back.  We'll help you sign up.</h3>
+                        <input></input>
+                        <br/><br/>
                         <button class="add-margin-bottom">
                             Get the Election Survival Guide
                         </button>
-
-                        <p class="urgency-statement" id="urgency-statement">
-                            Hurry! Online voter registration closes in <strong id="registration-countdown"></strong>.
-                        </p>
                     </div>
+                </div>
+
+                <div class="row half-pad-top">
+                    <p class="urgency-statement" id="urgency-statement">
+                        Hurry! Online voter registration closes in <strong id="registration-countdown"></strong>.
+                    </p>
                 </div>
 
             </div>
@@ -196,7 +200,7 @@
                         “It is essential to understand that the main challenge for our electoral democracy is not voter fraud, but voter participation. I do not believe that if we eliminate vouching and the [information card] as a proof of address, we will have in any way improved the integrity of the voting process. However, we will have taken away the ability of many qualified electors to vote.”
                     </h2>
                     <h4 class="right">
-                         - Marc Mayrand, Chief Electoral Officer of Elections Canada
+                        - Marc Mayrand, Chief Electoral Officer of Elections Canada
                     </h4>
                 </div>
                 <div class="col-sm-1"></div>
@@ -268,19 +272,19 @@
     <script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
     <script src="bower_components/FitVids/jquery.fitvids.js"></script>
     <script>
-        //FITVIDS INIT
-        $(document).ready(function(){
-            // Target your .container, .wrapper, .post, etc.
-            $(".fitvid").fitVids();
-        });
+    //FITVIDS INIT
+    $(document).ready(function(){
+        // Target your .container, .wrapper, .post, etc.
+        $(".fitvid").fitVids();
+    });
 
-        //COUNTDOWN INIT
-        $("#registration-countdown")
-        .countdown("2015/10/13", function(event) {
-            $(this).text(
-                event.strftime('%D days %H hours, %M minutes, %S seconds')
-            );
-        });
+    //COUNTDOWN INIT
+    $("#registration-countdown")
+    .countdown("2015/10/13", function(event) {
+        $(this).text(
+            event.strftime('%D days %H hours, %M minutes, %S seconds')
+        );
+    });
     </script>
 
     <!--ShareThis scripts-->
