@@ -51,6 +51,13 @@ h3 {
 h4 {
   font-weight: 200; }
 
+input {
+  width: 100%;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  border: none; }
+
 /*--------------------
 NAV BAR
 --------------------*/
@@ -201,7 +208,10 @@ SPLASH SCREEN
   .splash .call-to-action {
     padding: 10px;
     max-width: 950px;
-    margin: auto; }
+    margin: auto;
+    display: flex; }
+    .splash .call-to-action .sign-up {
+      align-self: center; }
     .splash .call-to-action .vid-col {
       padding: 0; }
 

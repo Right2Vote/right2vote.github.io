@@ -91,7 +91,13 @@ h4 {
     font-weight: 200;
 }
 
-
+input {
+    width: 100%;
+    color: black;
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+}
 
 
 
@@ -317,6 +323,11 @@ SPLASH SCREEN
         padding:10px;
         max-width: 950px;
         margin: auto;
+        display: flex;
+
+        .sign-up {
+            align-self: center;
+        }
 
         .vid-col {
             padding: 0;
