@@ -77,7 +77,7 @@ body {
     line-height: 1.5em;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: "Oswald";
     line-height: 1.3em;
     margin-bottom: 20px;
@@ -147,21 +147,30 @@ UNORGANIZED
 --------------------*/
 
 .bullet-info-area {
+    margin-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
     color: white;
     text-size: 1.3em;
-}
-
-.iceberg-orphan h2 {
-    text-align: center;
-    color: white;
-
+    
+    h2 {
+        color: white;
+        font-size: 40px;
+    }
+    
+    p {
+        font-size: 24px;
+    }
+    
+    li {
+        font-size: 20px;
+    }
 }
 
 .cta-area {
     background-color: rgba(218, 236, 246, 0.5);
     padding: 30px 30px;
+    margin-top: 40px;
 
 }
 
@@ -389,7 +398,7 @@ POINTS
 --------------------*/
 
 .point-headline {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -419,6 +428,10 @@ POINTS
     }
 }
 
+.point-quote-area {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .share-container {
     text-align: center;
