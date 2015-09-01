@@ -59,6 +59,15 @@ input {
   border: none; }
 
 /*--------------------
+HIDING SHIT
+--------------------*/
+@media (max-width: 767px) {
+  .tablet-up {
+    display: none !important; } }
+@media (min-width: 768px) {
+  .tablet-up {
+    display: block !important; } }
+/*--------------------
 NAV BAR
 --------------------*/
 header.navbar {
@@ -71,6 +80,9 @@ header.navbar {
 
 .navbar-logo {
   height: 25px; }
+
+.navbar-inverse .navbar-text {
+  margin-top: 11px; }
 
 /*--------------------
 UNORGANIZED
@@ -100,7 +112,8 @@ UNORGANIZED
   color: white; }
 
 .bottom-logo {
-  height: 40px; }
+  height: 40px;
+  margin-top: -3px; }
 
 /*--------------------
 COLOR CLASSES
