@@ -26,6 +26,7 @@ $color5: #ff00b5;
 $color5-alpha: rgba($color5, 0.8);
 $color5-shadow: darken($color5, 10%);
 $color5-highlight: lighten($color5, 10%);
+$color5-highlight2: lighten($color5, 20%);
 
 .color1-background {
     color: white;
@@ -61,8 +62,7 @@ DEFAULTS
 --------------------*/
 
 .row {
-    padding-top: 50px;
-    padding-bottom: 50px;
+
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -175,6 +175,11 @@ UNORGANIZED
 .urgency-statement {
     text-align: center;
     color: white;
+    font-size: 19px;
+    
+    strong {
+        font-size: 22px;
+    }
 }
 
 .bottom-logo {
@@ -296,7 +301,7 @@ SPLASH SCREEN
 --------------------*/
 
 .splash {
-    height: 80vh;
+    height: 635px;
     overflow: hidden;
     position: relative; //needed to make overflow work
     background: none;
@@ -318,6 +323,7 @@ SPLASH SCREEN
             min-height: 100%;
             z-index: -1000;
             overflow: hidden;
+            border: none;
         }
     }
 
@@ -335,22 +341,13 @@ SPLASH SCREEN
         max-width: 1000px;
         margin: auto;
 
-        .headline {
-            font-family: FuturaLT-Bold;
-            text-align: center;
-            color: white;
-        }
 
-        .supporting-statement {
-            font-family: FuturaLT;
-            text-align: center;
-            margin-bottom: 20px;
-            color: white;
-        }
+
+
     }
 
     .call-to-action {
-        padding:10px;
+        padding:0;
         max-width: 950px;
         margin: auto;
         display: flex;
@@ -365,6 +362,20 @@ SPLASH SCREEN
     }
 }
 
+.headline {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.supporting-statement {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: white;
+}
+
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -377,6 +388,11 @@ SPLASH SCREEN
 POINTS
 --------------------*/
 
+.point-headline {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 .point-container {
 
     min-height: 100%;
@@ -387,11 +403,13 @@ POINTS
 
         .point-box {
             padding: 10px;
-            border: 1px solid black;
+            //border: 1px solid black;
             text-align: center;
 
             img {
                 width: 100%;
+                margin-top: 5px;
+                margin-bottom: 15px;
             }
 
             div {

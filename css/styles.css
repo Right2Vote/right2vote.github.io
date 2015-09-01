@@ -26,10 +26,6 @@ COLORS
 /*--------------------
 DEFAULTS
 --------------------*/
-.row {
-  padding-top: 50px;
-  padding-bottom: 50px; }
-
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 20px; }
@@ -109,7 +105,10 @@ UNORGANIZED
 
 .urgency-statement {
   text-align: center;
-  color: white; }
+  color: white;
+  font-size: 19px; }
+  .urgency-statement strong {
+    font-size: 22px; }
 
 .bottom-logo {
   height: 40px;
@@ -193,7 +192,7 @@ button:active {
 SPLASH SCREEN
 --------------------*/
 .splash {
-  height: 80vh;
+  height: 635px;
   overflow: hidden;
   position: relative;
   background: none; }
@@ -209,7 +208,8 @@ SPLASH SCREEN
       min-width: 100%;
       min-height: 100%;
       z-index: -1000;
-      overflow: hidden; }
+      overflow: hidden;
+      border: none; }
   .splash .fader {
     width: 100%;
     height: 100%;
@@ -220,17 +220,8 @@ SPLASH SCREEN
   .splash .splash-text {
     max-width: 1000px;
     margin: auto; }
-    .splash .splash-text .headline {
-      font-family: FuturaLT-Bold;
-      text-align: center;
-      color: white; }
-    .splash .splash-text .supporting-statement {
-      font-family: FuturaLT;
-      text-align: center;
-      margin-bottom: 20px;
-      color: white; }
   .splash .call-to-action {
-    padding: 10px;
+    padding: 0;
     max-width: 950px;
     margin: auto;
     display: flex; }
@@ -238,6 +229,18 @@ SPLASH SCREEN
       align-self: center; }
     .splash .call-to-action .vid-col {
       padding: 0; }
+
+.headline {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  padding-top: 50px; }
+
+.supporting-statement {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 20px;
+  color: white; }
 
 .videoWrapper {
   position: relative;
@@ -248,16 +251,21 @@ SPLASH SCREEN
 /*--------------------
 POINTS
 --------------------*/
+.point-headline {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
 .point-container {
   min-height: 100%; }
   .point-container .point-inner {
     margin: 10px; }
     .point-container .point-inner .point-box {
       padding: 10px;
-      border: 1px solid black;
       text-align: center; }
       .point-container .point-inner .point-box img {
-        width: 100%; }
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 15px; }
       .point-container .point-inner .point-box div {
         padding-top: 10px; }
 

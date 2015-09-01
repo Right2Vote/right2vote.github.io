@@ -66,11 +66,11 @@
             <div class="container">
                 <div class="row center no-pad-bottom">
                     <br/>
-                    <h2 class="white">
+                    <h2 class="headline">
                         Think you're ready to vote in the 2015 Canadian Election?
                     </h2>
 
-                    <h2 class="white">
+                    <h2 class="supporting-statement">
                         <strong>You might not be.</strong> The requirements have changed.
                     </h2>
                 </div>
@@ -111,7 +111,7 @@
         <!--Above the fold-->
         <div class="row no-pad-bottom">
             <div class="container">
-                <h2 class="center">
+                <h2 class="center point-headline">
                     The biggest change: you'll need an ID with your <strong>current address.</strong>
                 </h2>
 
@@ -126,11 +126,11 @@
                     <div class="point-inner">
                         <div class="point-box">
                             <div>
-                                <h3>Voter registration cards don't count.</h3>
+                                <h4><strong>Voter information cards don't count.</strong></h4>
                             </div>
-                            <img src="img/icon-temp.gif"/>
+                            <img src="img/voter_information_card.jpg"/>
 
-                            <strong>Unlike last time</strong>, you can't show up with what Elections Canada sent you to identify yourself.
+                            <strong>Unlike last time</strong>, you can't use one of these to prove your address.
                         </div>
 
 
@@ -140,11 +140,11 @@
                     <div class="point-inner">
                         <div class="point-box">
                             <div>
-                                <h3>Driver's Licenses and IDs do, but...</h3>
+                                <h4><strong>Driver's Licenses and IDs do, but...</strong></h4>
                             </div>
-                            <img src="img/icon-temp.gif"/>
+                            <img src="img/drivers_license.jpg"/>
 
-                            Unless you rolled out to the DMV immediately after your last move, this probably doesn't have your <strong>current address.</strong>
+                            If you move often, these probably don't contain your <strong>current address.</strong>
                         </div>
 
 
@@ -154,11 +154,11 @@
                     <div class="point-inner">
                         <div class="point-box">
                             <div>
-                                <h3>Thankfully, There are alternatives...</h3>
+                                <h4><strong>Thankfully, There are alternatives...</strong></h4>
                             </div>
-                            <img src="img/icon-temp.gif"/>
+                            <img src="img/power_bill.jpg"/>
 
-                            We've done the research, and found the <strong>most easily-obtained IDs with address.</strong> These include your lease, electricity / telecomm bills, and bank statements.
+                            These include your <strong>lease, electricity / telecomm bills, and bank statements</strong> .
                         </div>
 
 
@@ -290,7 +290,7 @@
     $("#registration-countdown")
     .countdown("2015/10/13", function(event) {
         $(this).text(
-            event.strftime('%D days %H hours, %M minutes, %S seconds')
+            event.strftime('%D days, %H hours, %M minutes, %S seconds')
         );
     });
     </script>
