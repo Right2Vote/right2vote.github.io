@@ -371,6 +371,17 @@ SPLASH SCREEN
     }
 }
 
+.cta-alternative {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    color: $color3-highlight;   
+}
+
+.cta-alternative:hover {
+    color: $color5;
+}
+
 .headline {
     text-align: center;
     color: white;
@@ -470,3 +481,35 @@ POINTS
     font-weight: 200;
     line-height: 1.4em;
 }
+
+
+@mixin standard-section() {
+        padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*--------------------
+SHARE
+--------------------*/
+
+.share-area {
+    @include standard-section;
+}
+
+/*--------------------
+DONATION
+--------------------*/
+
+.donation-area {
+    @include standard-section;
+}
+
+/*--------------------
+FOOTER
+--------------------*/
+
+
+.footer {
+    @include standard-section;
+}
+
+

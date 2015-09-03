@@ -238,6 +238,15 @@ SPLASH SCREEN
     .splash .call-to-action .vid-col {
       padding: 0; }
 
+.cta-alternative {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: #934bdb; }
+
+.cta-alternative:hover {
+  color: #ff00b5; }
+
 .headline {
   text-align: center;
   color: white;
@@ -305,3 +314,24 @@ POINTS
   padding-right: 60px;
   font-weight: 200;
   line-height: 1.4em; }
+
+/*--------------------
+SHARE
+--------------------*/
+.share-area {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/*--------------------
+DONATION
+--------------------*/
+.donation-area {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/*--------------------
+FOOTER
+--------------------*/
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px; }
