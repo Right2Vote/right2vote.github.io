@@ -88,19 +88,22 @@ UNORGANIZED
   padding-left: 20px;
   padding-right: 20px;
   color: white;
-  text-size: 1.3em; }
+  text-size: 1.3em;
+  /*p {
+      font-size: 24px;
+  }
+  
+  li {
+      font-size: 24px;
+  }*/ }
   .bullet-info-area h2 {
     color: white;
     font-size: 40px; }
-  .bullet-info-area p {
-    font-size: 24px; }
-  .bullet-info-area li {
-    font-size: 20px; }
 
 .cta-area {
   background-color: rgba(218, 236, 246, 0.5);
-  padding: 30px 30px;
-  margin-top: 40px; }
+  padding: 20px 20px;
+  margin-top: 45px; }
 
 .pre-cta {
   font-family: FuturaLT;
@@ -292,7 +295,7 @@ POINTS
   background-size: cover;
   height: 1000px; }
   .iceberg .iceberg-bottom {
-    bottom: 50px;
+    bottom: 0px;
     position: absolute;
     width: 100%;
     padding: 30px;

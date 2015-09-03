@@ -158,19 +158,19 @@ UNORGANIZED
         font-size: 40px;
     }
     
-    p {
+    /*p {
         font-size: 24px;
     }
     
     li {
-        font-size: 20px;
-    }
+        font-size: 24px;
+    }*/
 }
 
 .cta-area {
     background-color: rgba(218, 236, 246, 0.5);
-    padding: 30px 30px;
-    margin-top: 40px;
+    padding: 20px 20px;
+    margin-top: 45px;
 
 }
 
@@ -457,7 +457,7 @@ POINTS
     height: 1000px;
 
     .iceberg-bottom {
-        bottom: 50px;
+        bottom: 0px;
         position: absolute;
         width: 100%;
         padding: 30px;
