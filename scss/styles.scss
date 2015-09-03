@@ -153,10 +153,18 @@ UNORGANIZED
     color: white;
     text-size: 1.3em;
     
-    h2 {
+    h2 { 
         color: white;
-        font-size: 40px;
+        font-size: 36px;
     }
+    
+    @media (min-width: 1025px) {
+        h2 {
+            font-size: 40px;
+        }
+    }
+    
+    
     
     /*p {
         font-size: 24px;

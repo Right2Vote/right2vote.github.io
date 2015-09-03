@@ -98,7 +98,10 @@ UNORGANIZED
   }*/ }
   .bullet-info-area h2 {
     color: white;
-    font-size: 40px; }
+    font-size: 36px; }
+  @media (min-width: 1025px) {
+    .bullet-info-area h2 {
+      font-size: 40px; } }
 
 .cta-area {
   background-color: rgba(218, 236, 246, 0.5);
