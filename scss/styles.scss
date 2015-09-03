@@ -396,11 +396,23 @@ SPLASH SCREEN
     text-align: center;
     display: block;
     margin: 0 auto;
-    color: $color3-highlight;   
+    color: white;   
 }
 
 .cta-alternative:hover {
     color: $color5;
+}
+
+.cta-alternative:visited {
+    color: white;   
+}
+
+.cta-alternative:visited:hover {
+    color: $color5;  
+}
+
+.cta-alternative:active {
+    color: $color5-highlight;
 }
 
 .headline {
@@ -462,7 +474,7 @@ POINTS
 
 .point-quote-area {
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .share-container {

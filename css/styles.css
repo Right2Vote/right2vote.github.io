@@ -255,10 +255,19 @@ SPLASH SCREEN
   text-align: center;
   display: block;
   margin: 0 auto;
-  color: #934bdb; }
+  color: white; }
 
 .cta-alternative:hover {
   color: #ff00b5; }
+
+.cta-alternative:visited {
+  color: white; }
+
+.cta-alternative:visited:hover {
+  color: #ff00b5; }
+
+.cta-alternative:active {
+  color: #ff33c4; }
 
 .headline {
   text-align: center;
@@ -301,7 +310,7 @@ POINTS
 
 .point-quote-area {
   margin-top: 40px;
-  margin-bottom: 20px; }
+  margin-bottom: 40px; }
 
 .share-container {
   text-align: center; }
