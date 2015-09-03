@@ -251,6 +251,9 @@ SPLASH SCREEN
   margin-top: 0;
   margin-bottom: 10px; }
 
+.cta-button:hover {
+  background-color: #ff33c4; }
+
 .cta-alternative {
   text-align: center;
   display: block;
