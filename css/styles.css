@@ -334,6 +334,8 @@ POINTS
     width: 100%;
     padding: 30px;
     margin: auto; }
+  .iceberg a {
+    color: white; }
 
 .quote {
   padding-right: 60px;
@@ -346,6 +348,15 @@ SHARE
 .share-area {
   padding-top: 20px;
   padding-bottom: 20px; }
+
+.stButton .st-twitter-counter {
+  padding-bottom: 20px !important; }
+
+.stButton .stMainServices {
+  padding-bottom: 20px !important; }
+
+.stButton .st-facebook-counter {
+  padding-bottom: 20px !important; }
 
 /*--------------------
 DONATION

@@ -511,6 +511,10 @@ POINTS
         padding: 30px;
         margin:auto;
     }
+    
+    a {
+        color: white;
+    }
 }
 
 .quote {
@@ -531,6 +535,20 @@ SHARE
 .share-area {
     @include standard-section;
 }
+
+.stButton .st-twitter-counter   {
+    padding-bottom: 20px !important;
+}
+
+.stButton .stMainServices  {
+    padding-bottom: 20px !important;
+}
+
+.stButton .st-facebook-counter   {
+    padding-bottom: 20px !important;
+}
+
+
 
 /*--------------------
 DONATION
