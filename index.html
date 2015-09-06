@@ -173,7 +173,7 @@
                     “Based on the evidence to date, there is a risk that some individuals who would otherwise rely on the Voter Information Card to enable them to vote will be unable to do so due to s.46(3), which would result in <strong>irreparable harm due to their inability to exercise their right to vote</strong> in that fashion.”
                 </h3>
                 <h4 class="right">
-                    <a href="http://ipolitics.ca/2015/07/17/judge-says-fair-elections-act-risks-irreparable-harm-but-wont-issue-injunction/">- Justice David Stinson</a> (emphasis ours)
+                    <a href="http://ipolitics.ca/2015/07/17/judge-says-fair-elections-act-risks-irreparable-harm-but-wont-issue-injunction/">- Justice David Stinson</a> (<strong>emphasis</strong> ours)
                 </h4>
             </div>
         </div>
@@ -186,15 +186,9 @@
                 <div class="row">
                     <div class="col-sm-7">
                         <div class="bullet-info-area">
-                            <h2>This is just the tip of the iceberg. </h2>
+                            <h2>This is just the tip of the iceberg.</h2>
                             <p>
-                                Did you know that:</p>
-                                <ul>
-                                    <li>The geographical layouts of the ridings have changed.</li>
-                                    <li>Elections Canada has been limited in its ability to promote voting.</li>
-                                    <li>You can no longer vouch for multiple people's identities.</li>
-                                </ul>
-                                <p>The list goes on...
+                                Spend a minute digging into the Fair Elections Act, and you'll find some pretty interesting stuff. For example, did you know that it is <strong>now illegal for Elections Canada to promote voting</strong>? You wouldn't have heard it from them, of course.
                             </p>
                         </div>
                     </div>
@@ -229,34 +223,44 @@
 
         </div>
         <!--Iceberg Section End-->
-
-        <!--Share Section-->
-        <div class="row share-area">
+    
+        <div class="row canada-area">
             <div class="container">
 
                 <h2 class="center">
-                    Help us spread the word.</br>
-                    We're trying to help as many Canadians vote as possible.
+                   
                 </h2>
-
-                <br/>
-
-                <div class="share-container add-margin-bottom">
-                    <!--<span class='st_sharethis_vcount' displayText='ShareThis'></span>-->
-                    <span class='st_facebook_vcount' displayText='Facebook'></span>
-                    <span class='st_twitter_vcount' displayText='Tweet'></span>
-                    <!--<span class='st_pinterest_vcount' displayText='Pinterest'></span>
-                    <span class='st_reddit_vcount' displayText='Reddit'></span>
-                    <span class='st_email_vcount' displayText='Email'></span>-->
+                
+                <div class="row">
+                    <div class="col-sm-7">
+                    
+                    </div>
+                    <div class="col-sm-5"> 
+                        <h1>Don't Let the Fair Elections Act Catch Canada Off-Guard.</h1>
+                        <p>This is an important election. We need to <strong>increase voter turnout, not decrease it</strong> with arbitrary rules. Are you committed to your country? Then take action. Help us get the word out.</p>
+                    </div>
                 </div>
-
-
-                <h3 class="center no-bottom">You don't want your friends to get left out in the cold, do you?</h3>
             </div>
         </div>
-        <!--Share Section End-->
 
+        <div class="row share-area">
+            <h1 class="center">Sharing is like voting - <strong>the whole is greater than the sum of its parts</strong>.</h1> 
+                <div class="share-container add-margin-bottom">
+                <!--<span class='st_sharethis_vcount' displayText='ShareThis'></span>-->
+                <span class='st_facebook_vcount' displayText='Facebook'></span>
+                <span class='st_twitter_vcount' displayText='Tweet'></span>
+                <!--<span class='st_pinterest_vcount' displayText='Pinterest'></span>
+                <span class='st_reddit_vcount' displayText='Reddit'></span>
+                <span class='st_email_vcount' displayText='Email'></span>-->
+            </div>   
+            
+            <h2 class="center">Ready to do your part?</h2>
+ 
+        </div>
+
+        
         <!--Get Involved Section-->
+        <!--
         <div class="row color4-background donation-area">
             <div class="container">
                 <h3 class="center">
@@ -270,14 +274,17 @@
                 <h3 class="center no-bottom">This is a volunteer-run project.</h3>
             </div>
         </div>
+        -->
         <!--Get Involved Section End-->
 
         <!--Organization Section-->
+        <!--
         <div class="row center color4-shadow-background footer">
             <h2 class="no-bottom">
                 Protect your <img class="bottom-logo" src="img/right2vote.png"></img>
             </h2>
         </div>
+        -->
         <!--Organization Section End-->
 
 
@@ -301,6 +308,13 @@
 
     //COUNTDOWN INIT
     $("#registration-countdown")
+    .countdown("2015/10/13", function(event) {
+        $(this).text(
+            event.strftime('%D days, %H hours, %M minutes, %S seconds')
+        );
+    });
+        
+    $("#registration-countdown-2")
     .countdown("2015/10/13", function(event) {
         $(this).text(
             event.strftime('%D days, %H hours, %M minutes, %S seconds')

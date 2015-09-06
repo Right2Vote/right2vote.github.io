@@ -88,7 +88,7 @@ UNORGANIZED
   padding-left: 20px;
   padding-right: 20px;
   color: white;
-  text-size: 1.3em;
+  font-size: 20px;
   /*p {
       font-size: 24px;
   }
@@ -345,9 +345,20 @@ POINTS
 /*--------------------
 SHARE
 --------------------*/
+.canada-area {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  background-image: url(../img/canada.png);
+  background-position: top center;
+  background-size: cover;
+  height: 350px; }
+
 .share-area {
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  background-color: #250C3D;
+  color: white; }
 
 .stButton .st-twitter-counter {
   padding-bottom: 20px !important; }

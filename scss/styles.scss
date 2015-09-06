@@ -151,7 +151,7 @@ UNORGANIZED
     padding-left: 20px;
     padding-right: 20px;
     color: white;
-    text-size: 1.3em;
+    font-size: 20px;
     
     h2 { 
         color: white;
@@ -326,7 +326,7 @@ SPLASH SCREEN
     overflow: hidden;
     position: relative; //needed to make overflow work
     background: none;
-
+    
     .background {
 
         //Backup image for when video fails
@@ -532,8 +532,19 @@ POINTS
 SHARE
 --------------------*/
 
+.canada-area {
+    @include standard-section;
+    position:relative;
+    background-image: url(../img/canada.png);
+    background-position: top center;
+    background-size: cover;
+    height: 350px;
+}
+
 .share-area {
     @include standard-section;
+    background-color: #250C3D;
+    color: white;
 }
 
 .stButton .st-twitter-counter   {
