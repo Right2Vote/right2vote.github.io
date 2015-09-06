@@ -545,10 +545,38 @@ SHARE
 .canada-area {
     @include standard-section;
     position:relative;
-    background-image: url(../img/canada.png);
+    background-image: url(../img/canada_leaf.png);
     background-position: top center;
     background-size: cover;
-    height: 350px;
+    color: white;
+    
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 24px; 
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .canada-area {
+        background-image: url(../img/canada.png);
+        height: 350px;
+        color: black;
+        
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            font-size: 30px;   
+        }
+    }
+    
+
 }
 
 .share-area {

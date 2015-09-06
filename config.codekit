@@ -10463,6 +10463,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/canada_leaf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17993,
+		"inputAbbreviatedPath": "\/img\/canada_leaf.png",
+		"outputAbbreviatedPath": "\/img\/canada_leaf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/clouda.png": {
 		"fileType": 32768,
 		"ignore": 0,

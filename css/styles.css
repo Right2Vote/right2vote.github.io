@@ -353,11 +353,26 @@ SHARE
   padding-top: 20px;
   padding-bottom: 20px;
   position: relative;
-  background-image: url(../img/canada.png);
+  background-image: url(../img/canada_leaf.png);
   background-position: top center;
   background-size: cover;
-  height: 350px; }
+  color: white; }
+  .canada-area h1 {
+    font-size: 30px;
+    text-align: center; }
+  .canada-area h2 {
+    font-size: 24px;
+    text-align: center; }
 
+@media (min-width: 768px) {
+  .canada-area {
+    background-image: url(../img/canada.png);
+    height: 350px;
+    color: black; }
+    .canada-area h1 {
+      font-size: 36px; }
+    .canada-area h2 {
+      font-size: 30px; } }
 .share-area {
   padding-top: 20px;
   padding-bottom: 20px;
