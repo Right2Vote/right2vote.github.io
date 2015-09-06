@@ -204,7 +204,7 @@ UNORGANIZED
 }
 
 .bottom-logo {
-    height: 40px;
+    height: 28px;
     margin-top: -3px;
 }
 
@@ -576,6 +576,23 @@ FOOTER
 
 .footer {
     @include standard-section;
+    background-color: black;
+    color: white;
+    width: 100%;
 }
 
+.footer-list {
+    list-style-type: none;
+    
+    li {
+        display: inline;
+        margin-right: 10px;
+    }
+}
+
+.sponsor {
+    margin-left: 10px;
+    display: inline;
+    height: 40px;
+}
 

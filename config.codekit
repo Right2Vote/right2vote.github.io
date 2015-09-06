@@ -10463,6 +10463,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/cloudA.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9066,
+		"inputAbbreviatedPath": "\/img\/cloudA.png",
+		"outputAbbreviatedPath": "\/img\/cloudA.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/drivers_license.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
