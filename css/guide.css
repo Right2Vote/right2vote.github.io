@@ -181,9 +181,10 @@ button:active {
   font-weight: bold; }
 
 .guide-img {
-  max-width: 100%; }
+  max-width: 100%;
+  margin-bottom: 12px; }
 
 .guide-row {
   margin-bottom: 20px; }
-  .guide-row p {
+  .guide-row p:first-child {
     padding-top: 2px; }

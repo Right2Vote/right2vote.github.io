@@ -10613,6 +10613,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/step2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113273,
+		"inputAbbreviatedPath": "\/img\/step2.png",
+		"outputAbbreviatedPath": "\/img\/step2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/step3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109023,
+		"inputAbbreviatedPath": "\/img\/step3.png",
+		"outputAbbreviatedPath": "\/img\/step3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/voter_information_card.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
