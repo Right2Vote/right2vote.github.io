@@ -1,0 +1,57 @@
+@import '_base.scss';
+
+.guide-header {
+    padding-top: 70px;
+    background-color: $splash-bg-color;
+    color: white;
+    width: 100%;
+    
+    a {
+        color: $color5-highlight;
+    }
+    
+    a:hover {
+        color: $color5;  
+    } 
+}
+
+.guide-title {
+    @extend .center;
+}
+
+.guide-subheader {
+    @extend .center;
+}
+
+.guide-list {
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    
+    a { 
+        color: white;
+    }
+}
+
+.guide-registration {
+    padding-top: 20px;
+}
+
+.step-number {
+    text-align: right;
+    font-weight: bold;
+}
+
+.guide-img {
+    max-width: 100%;
+}
+
+.guide-row {
+    margin-bottom: 20px;
+    
+    p {
+        padding-top: 2px;   
+    }
+}

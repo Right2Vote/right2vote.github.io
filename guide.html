@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Right to Vote - Online Registration Guide</title>
+
+    <link rel="icon" type="image/png" href="img/pivot_favicon.png">
+
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="css/guide.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300|Roboto:300,300italic,500italic,500' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="./" class="navbar-brand"><img class="navbar-logo" src="img/r2v.png"></img></a>
+            </div>
+            <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+                <ul class="nav navbar-nav">
+                    
+                    <li class="tablet-up">
+                        <span class="navbar-text">Follow us on</span>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com/right2voteCA" target="_blank"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/right2votecanada" target="_blank"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li class="tablet-up">
+                        <span class="navbar-text">and</span>
+                    </li>
+                    <li>
+                        <button>
+                            Sign Up
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="guide-header">        
+        <div class="container">
+            <h1 class="guide-title">Welcome to the Right2Vote Registration and Voting Guide.</h1>
+            <h2 class="guide-subheader">Simplifying Obscure Information.</h2>
+            
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <p>Ideally, we would just send you to <a href="http://www.elections.ca/">Elections Canada's website</a>, and everything would be crystal clear. However, <strong>we're worried that the most relevant information is being lost in a sea of confusing facts</strong>. Plus, we're not huge fans of websites that look like they came straight out of 1998. </p>
+                        
+                    <p>Here's our attempt to cut through the cruft, so you don't have to.</p> 
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+            
+            <div class="guide-sections">
+                <h2 class="center">There are just 2 sections:</h2>
+
+                <a href="#"><h2 class="center">Help me get Registered Online to Vote.</h2></a>
+
+                <h3 class="center">and</h3>
+
+                <a href="#"><h2 class="center">Help me Vote!</h2></a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="guide-registration">
+        <div class="container">
+            <h1 class="center">Help me Get Registered Online to Vote</h1>
+            
+            <div class="row guide-row">
+                <div class="col-sm-2"><h3 class="step-number">Step 1.</h3></div>
+                <div class="col-sm-8">
+                    <p>You're going to want to hit up <a href="http://elections.ca/register">elections.ca/register.</a> It's gonna look something like this:</p>
+                    <img class="guide-img" src="img/step1.png"></img>
+                
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        
+            <div class="row guide-row">
+                <div class="col-sm-2"><h3 class="step-number">Step 2.</h3></div>
+                <div class="col-sm-8">
+                    <p>You're going to want to hit up <a href="http://elections.ca/register">elections.ca/register.</a> It's gonna look something like this:</p>
+                    <img class="guide-img" src="img/step1.png"></img>
+                
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+
+        
+        </div>
+    </div>
+    
+        
+
+    <!--Organization Section End-->
+
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/bootstrap/js/collapse.js"></script>
+    <script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
+    <script src="bower_components/FitVids/jquery.fitvids.js"></script>
+    <script>
+    //FITVIDS INIT
+    $(document).ready(function(){
+        // Target your .container, .wrapper, .post, etc.
+        $(".fitvid").fitVids();
+    });
+
+    //COUNTDOWN INIT
+    $("#registration-countdown")
+    .countdown("2015/10/13", function(event) {
+        $(this).text(
+            event.strftime('%D days, %H hours, %M minutes, %S seconds')
+        );
+    });
+    </script>
+
+    <!--ShareThis scripts-->
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "c3405ab0-bfab-4ba7-9cf3-620fa04548d6", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
+</body>
+</html>
