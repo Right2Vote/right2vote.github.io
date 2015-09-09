@@ -50,6 +50,12 @@ UNORGANIZED
     margin-top: 10px;
 }
 
+@media (min-width: 970px) {
+    .cta-headline {
+        margin-top: 0;   
+    }
+}
+
 .pre-cta {
     font-family: FuturaLT;
     text-align: center;
@@ -154,7 +160,7 @@ SPLASH SCREEN
 }
 
 .cta-button {
-    margin-top: 0;
+    margin-top: 25px;
     margin-bottom: 10px;
 }
 
