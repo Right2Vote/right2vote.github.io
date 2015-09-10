@@ -154,6 +154,13 @@ button:active {
   -webkit-box-shadow: none;
   box-shadow: none; }
 
+.cta-button {
+  margin-top: 25px;
+  margin-bottom: 10px; }
+
+.cta-button:hover {
+  background-color: #ff33c4; }
+
 /*--------------------
 UNORGANIZED
 --------------------*/
@@ -187,7 +194,7 @@ UNORGANIZED
 .cta-headline {
   margin-top: 10px; }
 
-@media (min-width: 980px) {
+@media (min-width: 970px) {
   .cta-headline {
     margin-top: 0; } }
 .pre-cta {
@@ -254,16 +261,6 @@ SPLASH SCREEN
 @media (min-width: 768px) {
   .splash {
     height: 635px; } }
-.cta-email {
-  margin-bottom: 15px; }
-
-.cta-button {
-  margin-top: 25px;
-  margin-bottom: 10px; }
-
-.cta-button:hover {
-  background-color: #ff33c4; }
-
 .cta-alternative {
   text-align: center;
   display: block;

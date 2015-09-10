@@ -154,6 +154,13 @@ button:active {
   -webkit-box-shadow: none;
   box-shadow: none; }
 
+.cta-button {
+  margin-top: 25px;
+  margin-bottom: 10px; }
+
+.cta-button:hover {
+  background-color: #ff33c4; }
+
 .guide-header {
   padding-top: 70px;
   background-color: #250C3D;
@@ -188,3 +195,17 @@ button:active {
   margin-bottom: 20px; }
   .guide-row p:first-child {
     padding-top: 2px; }
+
+.email-cta-section {
+  background-color: #250C3D;
+  color: white; }
+
+.email-cta-box {
+  background-color: #332F49;
+  padding: 20px 20px;
+  width: 100%; }
+
+.cta-email {
+  width: 80%;
+  margin: 15px auto;
+  display: block; }
