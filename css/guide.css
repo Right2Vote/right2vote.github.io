@@ -308,14 +308,17 @@ SHARE
 
 .email-cta-box {
   padding: 10px 0px;
-  margin: 0 auto;
-  width: 88%; }
+  margin: 0 auto; }
 
 .cta-email {
   width: 80%;
   margin: 15px auto;
   display: block; }
 
+@media (min-width: 768px) {
+  .email-cta-box {
+    width: 75%;
+    background-color: #332F49; } }
 .post-fb-plugin {
   margin-top: 20px;
   margin-bottom: 10px; }

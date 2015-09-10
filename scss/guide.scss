@@ -71,7 +71,7 @@
     
     padding: 10px 0px;
     margin: 0 auto;
-    width: 88%;
+
 }
 
 .cta-email {
@@ -82,7 +82,8 @@
 
 @media (min-width: 768px) {
     .email-cta-box {
-        //background-color: #332F49;
+        width: 75%;
+        background-color: #332F49;
 
     }
 }
