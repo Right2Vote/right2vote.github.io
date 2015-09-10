@@ -58,14 +58,20 @@
 }
 
 .email-cta-section {
+    //background: -webkit-linear-gradient(black, $splash-bg-color); /* For Safari 5.1 to 6.0 */
+    //background: -o-linear-gradient(black, $splash-bg-color); /* For Opera 11.1 to 12.0 */
+    //background: -moz-linear-gradient(black, $splash-bg-color); /* For Firefox 3.6 to 15 */
+    //background: linear-gradient(black, $splash-bg-color); /* Standard syntax */
+    
     background-color: $splash-bg-color;
     color: white;
 }
 
 .email-cta-box {
-
-    padding: 20px 25px;
-    width: 100%;
+    
+    padding: 10px 0px;
+    margin: 0 auto;
+    width: 88%;
 }
 
 .cta-email {
@@ -76,12 +82,18 @@
 
 @media (min-width: 768px) {
     .email-cta-box {
-        background-color: #332F49;
+        //background-color: #332F49;
+
     }
 }
 
 .cta-checkbox {
     
+}
+
+.post-fb-plugin {
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .help-me-vote-section {

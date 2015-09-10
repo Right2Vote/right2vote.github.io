@@ -151,6 +151,11 @@ header.navbar {
     margin-top: 11px;
 }
 
+.fb-nav {
+    padding-top: 8px;
+    padding-left: 7px;
+}
+
 
 /*--------------------
 HELPER CLASSES
@@ -264,7 +269,7 @@ FOOTER
 
 .footer-logo {
     height: 28px;
-    margin-top: 13px;
+    margin-top: 15px;
 }
 
 .privacy-policy {
@@ -339,4 +344,62 @@ FOOTER
 .sponsor-text {
     font-size: 13px;
     color: white;
+}
+
+/*--------------------
+SHARE
+--------------------*/
+
+.facebook-button-text {
+    margin-left: 3px;
+    margin-top: -10px;
+    height: 25px;
+    display: inline;
+}
+
+.navbar-facebook-button-text {
+    display: inline;
+    margin-top: -7px;
+    margin-left: 1px;
+    height: 18px;
+}
+
+.facebook-plugin-container {
+    //@extend .center-block;
+    width: 300px;
+    margin: 0 auto;
+    //margin-top: 15px;
+}
+
+.facebook-likebox-container {
+    width: 225px;
+    margin: 0 auto;
+}
+
+@media (min-width: 520px) {
+    .facebook-plugin-container {
+        width: 500px;   
+    }
+}
+
+.facebook-button {
+    background-color: $facebook-blue;
+    -webkit-box-shadow: inset 0 -2px $facebook-blue-shadow;
+    box-shadow: inset 0 -2px $facebook-blue-shadow;
+    border-bottom: 2px solid $facebook-blue-shadow;
+    margin-top: 25px;
+}
+
+.share-instructions {
+    width: 180px;
+    margin: 0 auto;
+    
+    ol {
+        margin-left: -7px;
+    }
+    
+    li {
+        font-size: 21px;  
+        
+    }
 }

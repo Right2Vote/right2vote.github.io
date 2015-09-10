@@ -17,6 +17,15 @@
 
 </head>
 <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=365643560282363";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
     <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
         <div class="container">
             <div class="navbar-header">
@@ -30,23 +39,8 @@
             </div>
             <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
                 <ul class="nav navbar-nav">
-                    
-                    <li class="tablet-up">
-                        <span class="navbar-text">Follow us on</span>
-                    </li>
-                    <li>
-                        <a href="https://www.twitter.com/right2voteCA" target="_blank"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/right2votecanada" target="_blank"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li class="tablet-up">
-                        <span class="navbar-text">and</span>
-                    </li>
-                    <li>
-                        <button>
-                            Sign Up
-                        </button>
+                    <li class="fb-nav">
+                        <div class="fb-like" data-href="https://facebook.com/right2votecanada" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
                     </li>
                 </ul>
             </nav>
@@ -61,7 +55,7 @@
             <div class="row">
                 <div class="col-sm-3"></div>
                 <div class="col-sm-6">
-                    <p>Ideally, we would just send you to <a href="http://www.elections.ca/">Elections Canada's website</a>, and everything would be crystal clear. However, <strong>we're worried that the most relevant information is being lost in a sea of confusing facts</strong>. <!--Plus, we're not huge fans of websites that look like they came straight out of 1998.--> </p>
+                    <p>Ideally, we would just send you to <a href="http://www.elections.ca/">Elections Canada's website</a>, and everything would be crystal clear. However, <strong>we're worried that the most relevant information is being lost in a sea of confusing facts</strong>. Plus, we're not huge fans of government websites that look like they came straight out of 1998. </p>
                         
                                     
                     <!--<p><em>Note that this page is under development, and contains information that we are hypothesizing but could be incorrect. Things that we are especially uncertain of will be italicized. </em></p>-->
@@ -78,18 +72,6 @@
                 <a name="help-me-register"></a>
                 <a href="#help-me-vote"><h2 class="center">Help me Vote!</h2></a>
 
-            </div>
-            
-            <div class="row">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-6">
-                    <div class="first-email-cta-section">
-                        <h3 class="center">You should totally also</h3>
-                        <button onclick="location.href='#mailing-list'">Join our mailing List</button>
-                        <p class="center">We'll help you remember to register and to vote.</p>
-                    </div>
-                </div>
-                <div class="col-sm-3"></div>
             </div>
         </div>
     </div>
@@ -202,7 +184,39 @@
             
         </div>
     </div>
+
+    <div class="email-cta-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="email-cta-box">
+                        <h2 class="center">Show your Support for Democracy.</h2>
+
+
+                        <div class="facebook-plugin-container">
+                            <div class="fb-page" data-href="https://www.facebook.com/right2votecanada" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/right2votecanada"><a href="https://www.facebook.com/right2votecanada">Right to Vote</a></blockquote></div></div>
+                        </div>
+                        
+                        <h2 class="center post-fb-plugin">Every Like Helps.</h2>
+
+
+                        <!--<button onclick="location.href='https://www.facebook.com/right2votecanada'" class="facebook-button">Visit us on <img class="facebook-button-text" src="img/facebook_text.png"></button>-->
+
+                        <!--<p class="center"><strong>No facebook?</strong> Just tell your friends to visit <strong>right2vote.ca</strong>. </p>-->
+
+                        <!--<h3 class="center">Sharing is like voting - the whole is greater than the sum of its parts.</h3>-->
+                    </div>
+
+
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+        </div>
+    </div>
         
+    <!--
     <div class="email-cta-section">
         <div class="container">
             <div class="row">
@@ -227,7 +241,7 @@
             </div>
         </div>
     </div>
-    
+    -->
     <div class="help-me-vote-section">
         <div class="container">
                                     
@@ -260,27 +274,30 @@
         </div>
     </div>
 
-     <div class="email-cta-section">
+    <div class="email-cta-section">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-6">
-                    <div class=" email-cta-box">
-                                            
-                        <h1 class="center">Don't forget to vote!</h1>
-                        <p>We know you <em>might</em>. <strong>Increase your chances of remembering</strong> - join our mailing list!</p>
-                        <input placeholder="Your Email" class="cta-email"></input>
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="email-cta-box">
+                        <h2 class="center">Did you find our Guide Useful?</h2>
 
-                        <div class="checkbox">
-                            <label><input class="cta-checkbox" type="checkbox" value="">I consent to receive email reminders to register and to vote, as well as news and updates from the Right2Vote team.</label>
+
+                        <div class="facebook-plugin-container">
+                            <div class="fb-page" data-href="https://www.facebook.com/right2votecanada" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/right2votecanada"><a href="https://www.facebook.com/right2votecanada">Right to Vote</a></blockquote></div></div>
                         </div>
+                        
+                        <h2 class="center post-fb-plugin">Tell your Friends.</h2>
 
-                        <button class="cta-button">Sign up</button>
-                        <a name="help-me-vote"></a>
-                        <p class="center">Concerned about spam? Take a look at our <a href="#">Privacy Policy.</a></p>
+
+                        <!--<button onclick="location.href='https://www.facebook.com/right2votecanada'" class="facebook-button">Visit us on <img class="facebook-button-text" src="img/facebook_text.png"></button>-->
+
+                        <!--<p class="center"><strong>No facebook?</strong> Just tell your friends to visit <strong>right2vote.ca</strong>. </p>-->
+
+                        <!--<h3 class="center">Sharing is like voting - the whole is greater than the sum of its parts.</h3>-->
                     </div>
                 </div>
-                <div class="col-sm-3"></div>
+                <div class="col-md-2"></div>
             </div>
         </div>
     </div>
@@ -378,11 +395,6 @@
         );
     });
     </script>
-
-    <!--ShareThis scripts-->
-    <script type="text/javascript">var switchTo5x=true;</script>
-    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-    <script type="text/javascript">stLight.options({publisher: "c3405ab0-bfab-4ba7-9cf3-620fa04548d6", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 
 </body>
 </html>
