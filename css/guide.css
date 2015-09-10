@@ -92,6 +92,10 @@ HELPER CLASSES
 .center, .guide-title, .guide-subheader {
   text-align: center; }
 
+.center-block {
+  display: block;
+  margin: 0 auto; }
+
 .right {
   text-align: right; }
 

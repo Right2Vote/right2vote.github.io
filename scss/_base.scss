@@ -3,7 +3,8 @@ COLORS
 --------------------*/
 
 $splash-bg-color: #250C3D;
-
+$facebook-blue: #43609C;
+$facebook-blue-shadow: darken($facebook-blue, 10%);
 
 $color1: #CEEC97;
 
@@ -157,6 +158,11 @@ HELPER CLASSES
 
 .center {
     text-align: center;
+}
+
+.center-block {
+    display: block;
+    margin: 0 auto;
 }
 
 .right {

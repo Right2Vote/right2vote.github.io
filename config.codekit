@@ -10536,6 +10536,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/facebook_text.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7385,
+		"inputAbbreviatedPath": "\/img\/facebook_text.png",
+		"outputAbbreviatedPath": "\/img\/facebook_text.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/happypeople.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -10587,6 +10598,17 @@
 		"initialSize": 96708,
 		"inputAbbreviatedPath": "\/img\/r2v.png",
 		"outputAbbreviatedPath": "\/img\/r2v.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/r2v_icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19786,
+		"inputAbbreviatedPath": "\/img\/r2v_icon.png",
+		"outputAbbreviatedPath": "\/img\/r2v_icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

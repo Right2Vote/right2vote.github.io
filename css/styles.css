@@ -92,6 +92,10 @@ HELPER CLASSES
 .center {
   text-align: center; }
 
+.center-block {
+  display: block;
+  margin: 0 auto; }
+
 .right {
   text-align: right; }
 
@@ -422,6 +426,20 @@ SHARE
   background-color: #250C3D;
   color: white; }
 
+.facebook-button-text {
+  margin-left: 3px;
+  margin-top: -10px;
+  height: 25px;
+  display: inline; }
+
+.facebook-plugin-container {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 15px; }
+
+@media (min-width: 520px) {
+  .facebook-plugin-container {
+    width: 500px; } }
 .stButton .st-twitter-counter {
   padding-bottom: 20px !important; }
 
@@ -430,6 +448,19 @@ SHARE
 
 .stButton .st-facebook-counter {
   padding-bottom: 20px !important; }
+
+.facebook-button {
+  background-color: #43609C;
+  -webkit-box-shadow: inset 0 -2px #344a78;
+  box-shadow: inset 0 -2px #344a78;
+  border-bottom: 2px solid #344a78;
+  margin-top: 25px; }
+
+.share-instructions {
+  width: 180px;
+  margin: 0 auto; }
+  .share-instructions li {
+    font-size: 21px; }
 
 /*--------------------
 DONATION

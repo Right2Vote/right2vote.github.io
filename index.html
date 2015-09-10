@@ -17,6 +17,15 @@
 
 </head>
 <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=365643560282363";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
     <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
         <div class="container">
             <div class="navbar-header">
@@ -32,11 +41,11 @@
                 <ul class="nav navbar-nav">
                     
                     <li class="tablet-up">
-                        <span class="navbar-text">Follow us on</span>
+                        <span class="navbar-text">Like us on</span>
                     </li>
-                    <li>
+                    <!--<li>
                         <a href="https://www.twitter.com/right2voteCA" target="_blank"><i class="fa fa-twitter"></i></a>
-                    </li>
+                    </li>-->
                     <li>
                         <a href="https://www.facebook.com/right2votecanada" target="_blank"><i class="fa fa-facebook"></i></a>
                     </li>
@@ -248,20 +257,35 @@
         </div>
 
         <div class="row share-area">
-            <h1 class="center">Sharing is like voting - <strong>the whole is greater than the sum of its parts</strong>.</h1> 
-                <div class="share-container">
-                <!--<span class='st_sharethis_vcount' displayText='ShareThis'></span>-->
-                <span class='st_facebook_vcount' displayText='Facebook'></span>
-                <span class='st_twitter_vcount' displayText='Tweet'></span>
-                <!--<span class='st_pinterest_vcount' displayText='Pinterest'></span>
-                <span class='st_reddit_vcount' displayText='Reddit'></span>
-                <span class='st_email_vcount' displayText='Email'></span>-->
-            </div>   
-            
-            <h2 class="center">Ready to do your part?</h2>
- 
-        </div>
+            <div class="container">
+                <h1 class="center">Sharing is like voting - <strong>the whole is greater than the sum of its parts</strong>.</h1> 
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">        
+                        <h2 class="center">Follow our simple 2-step process:</h2>
+                            
+                        <ul class="share-instructions">
+                            <li><strong>like</strong> our page</li>
+                            <li><strong>share</strong> our page</li>
+                        </ul>
+                        
 
+                        <div class="facebook-plugin-container">
+                            <div class="fb-page" data-href="https://www.facebook.com/right2votecanada" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/right2votecanada"><a href="https://www.facebook.com/right2votecanada">Right to Vote</a></blockquote></div></div>
+                        </div>
+
+            
+                        <!--<button onclick="location.href='https://www.facebook.com/right2votecanada'" class="facebook-button">Visit us on <img class="facebook-button-text" src="img/facebook_text.png"></button>-->
+
+                        <h2 class="center">Every like counts.</h2>
+                        </div>
+                    <div class="col-md-2"></div>
+                </div>
+
+            </div>
+        </div>
+        
+ 
         
         <!--Get Involved Section-->
         <!--
