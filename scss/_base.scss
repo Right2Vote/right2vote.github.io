@@ -250,3 +250,57 @@ button:active {
 .cta-button:hover {
     background-color: $color5-highlight;
 }
+
+
+/*--------------------
+FOOTER
+--------------------*/
+
+.bottom-logo {
+    height: 28px;
+    margin-top: 0px;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    
+    span {
+       margin-top: 3px; 
+    }
+    
+    a {
+        color: $color5-highlight;  
+    }
+    
+    a:hover {
+        color: $color5;
+    }
+    
+    a:visited {
+        color: $color5;   
+    }
+}
+
+.footer-list {
+    list-style-type: none;
+    
+    li {
+        display: inline;
+        margin-right: 10px;
+    }
+}
+
+.sponsor {
+    margin-left: 10px;
+    display: inline;
+    height: 40px;
+}
+
+.sponsor-text {
+    font-size: 13px;
+    color: white;
+}

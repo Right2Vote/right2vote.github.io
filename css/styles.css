@@ -162,6 +162,43 @@ button:active {
   background-color: #ff33c4; }
 
 /*--------------------
+FOOTER
+--------------------*/
+.bottom-logo {
+  height: 28px;
+  margin-top: 0px; }
+
+.footer {
+  padding: 20px 0;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  width: 100%; }
+  .footer span {
+    margin-top: 3px; }
+  .footer a {
+    color: #ff33c4; }
+  .footer a:hover {
+    color: #ff00b5; }
+  .footer a:visited {
+    color: #ff00b5; }
+
+.footer-list {
+  list-style-type: none; }
+  .footer-list li {
+    display: inline;
+    margin-right: 10px; }
+
+.sponsor {
+  margin-left: 10px;
+  display: inline;
+  height: 40px; }
+
+.sponsor-text {
+  font-size: 13px;
+  color: white; }
+
+/*--------------------
 UNORGANIZED
 --------------------*/
 .bullet-info-area {
@@ -400,41 +437,3 @@ DONATION
 .donation-area {
   padding-top: 20px;
   padding-bottom: 20px; }
-
-/*--------------------
-FOOTER
---------------------*/
-.bottom-logo {
-  height: 28px;
-  margin-top: 0px; }
-
-.footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: black;
-  color: white;
-  font-size: 14px;
-  width: 100%; }
-  .footer span {
-    margin-top: 3px; }
-  .footer a {
-    color: #ff33c4; }
-  .footer a:hover {
-    color: #ff00b5; }
-  .footer a:visited {
-    color: #ff00b5; }
-
-.footer-list {
-  list-style-type: none; }
-  .footer-list li {
-    display: inline;
-    margin-right: 10px; }
-
-.sponsor {
-  margin-left: 10px;
-  display: inline;
-  height: 40px; }
-
-.sponsor-text {
-  font-size: 13px;
-  color: white; }
