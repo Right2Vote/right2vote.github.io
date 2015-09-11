@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery("#hideshow").on("click",function(e){jQuery("#guide").toggle("show")})});
