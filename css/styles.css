@@ -198,7 +198,6 @@ FOOTER
     margin-right: 10px; }
 
 .share-cta-box {
-  padding: 20px 25px;
   width: 88%;
   margin: 0 auto; }
 
@@ -495,6 +494,9 @@ SHARE
   padding-top: 20px;
   background-color: #250C3D;
   color: white; }
+
+.fb-area {
+  padding-top: 20px; }
 
 .stButton .st-twitter-counter {
   padding-bottom: 20px !important; }
