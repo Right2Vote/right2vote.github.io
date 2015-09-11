@@ -277,6 +277,9 @@ SHARE
   .guide-header a:hover {
     color: #ff00b5; }
 
+.guide-header-2 {
+  padding-top: 20px; }
+
 .guide-list {
   list-style: none;
   display: block;

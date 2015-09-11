@@ -312,10 +312,10 @@ UNORGANIZED
 .urgency-statement {
   text-align: center;
   color: white;
-  font-size: 19px;
+  font-size: 24px;
   padding: 0px 10px; }
   .urgency-statement strong {
-    font-size: 22px; }
+    font-size: 26px; }
 
 /*--------------------
 COLOR CLASSES
@@ -329,7 +329,8 @@ SPLASH SCREEN
 .splash {
   overflow: hidden;
   position: relative;
-  background: none; }
+  background: none;
+  color: white; }
   .splash .background {
     background: #7A28CB;
     position: absolute;
@@ -364,9 +365,18 @@ SPLASH SCREEN
     .splash .call-to-action .vid-col {
       padding: 0; }
 
-@media (min-width: 768px) {
-  .splash {
-    height: 635px; } }
+.bottom-statement {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  left: 0;
+  right: 0; }
+
+.video-section {
+  width: 100%;
+  margin-bottom: 15px; }
+
 .cta-alternative {
   text-align: center;
   display: block;
@@ -389,7 +399,7 @@ SPLASH SCREEN
   text-align: center;
   color: white;
   font-size: 40px;
-  padding-top: 50px; }
+  padding-top: 65px; }
 
 .supporting-statement {
   text-align: center;
