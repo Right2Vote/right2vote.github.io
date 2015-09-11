@@ -1,0 +1,15 @@
+/*--------------------
+NAV BAR
+--------------------*/
+header.navbar {
+  background: rgba(0, 0, 0, 0.8); }
+
+.navbar-logo {
+  height: 25px; }
+
+.navbar-inverse .navbar-text {
+  margin-top: 11px; }
+
+.fb-nav {
+  padding-top: 8px;
+  padding-left: 7px; }
