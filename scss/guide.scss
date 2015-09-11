@@ -39,12 +39,32 @@
     }
 }
 
-#guide {
+/*#guide {
     display: none;
-}
+}*/
 
 #guide-registration {
     padding-top: 20px;
+    display:none;
+}
+
+.help-me-vote-toggle-area {
+    padding-top: 0;
+    color: white;
+    background-color: $splash-bg-color;
+    
+}
+
+#guide-vote {
+    display:none;
+}
+
+#guide-vote-cta {
+    display:none;
+}
+
+#guide-registration-cta {
+    display:none; 
 }
 
 .step-number {
@@ -73,12 +93,13 @@
     
     background-color: $splash-bg-color;
     color: white;
+    padding-bottom: 0;
 }
 
 .email-cta-box {
     
-    padding: 10px 0px;
-    margin: 0 auto;
+    //padding: 10px 0px;
+    //margin: 0 auto;
 
 }
 

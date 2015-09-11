@@ -150,6 +150,7 @@ button {
   box-shadow: inset 0 -2px #cc0091;
   border-radius: 5px;
   margin: auto;
+  margin-bottom: 20px;
   display: block; }
   button.inline {
     display: inline;
@@ -284,11 +285,26 @@ SHARE
   .guide-list a {
     color: white; }
 
-#guide {
+/*#guide {
+    display: none;
+}*/
+#guide-registration {
+  padding-top: 20px;
   display: none; }
 
-#guide-registration {
-  padding-top: 20px; }
+.help-me-vote-toggle-area {
+  padding-top: 0;
+  color: white;
+  background-color: #250C3D; }
+
+#guide-vote {
+  display: none; }
+
+#guide-vote-cta {
+  display: none; }
+
+#guide-registration-cta {
+  display: none; }
 
 .step-number {
   text-align: right;
@@ -305,11 +321,8 @@ SHARE
 
 .email-cta-section {
   background-color: #250C3D;
-  color: white; }
-
-.email-cta-box {
-  padding: 10px 0px;
-  margin: 0 auto; }
+  color: white;
+  padding-bottom: 0; }
 
 .cta-email {
   width: 80%;
