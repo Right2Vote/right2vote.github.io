@@ -7,4 +7,12 @@ jQuery(document).ready(function(){
         jQuery('#guide-vote').toggle('show');
         jQuery('#guide-vote-cta').toggle('show');
     });
+    jQuery('#facebook-cta').on('click', function() {
+        if (jQuery.browser.mobile) {
+            window.location = 'fb://profile/859872477420296'; 
+        }
+        else {
+            window.open('https://www.facebook.com/right2votecanada');   
+        }
+    });
 });
