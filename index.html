@@ -39,49 +39,38 @@
                 <div class="fb-like" data-href="https://facebook.com/right2votecanada" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
             </div>
         </header>
+    
+        <div class="splash">
+            <div class="container">
+                <div class="center no-pad-bottom">
+                    <h2 class="headline">
+                        Think you're prepared to vote in the 2015 Canadian Election?
+                    </h2>
 
-        <div class="container-fluid">
-            <div class="splash row no-pad flex-container">
-                <div class="background">
 
+                    <h3 class="supporting-statement">
+                        You might not be. The Fair Elections Act is making it harder.
+                    </h3>
                 </div>
-
-                <div class="container">
-                    <div class="center no-pad-bottom">
-                        <h2 class="headline">
-                            Think you're prepared to vote in the 2015 Canadian Election?
-                        </h2>
-
-
-                        <h2 class="supporting-statement">
-                            You might not be. The Fair Elections Act is making it harder.
-                        </h2>
-                    </div>
-
-
-                    <div class="center mobile-only">
-                        <iframe width="310" height="173" src="https://www.youtube.com/embed/XhskVrYthco?enablejsapi=1"  frameborder="0" allowfullscreen></iframe>
-                    </div>
-
-                    <div class="video-section">
-                        <div class="row">
-                            <div class="col-sm-2"></div>
-                            <div class="col-sm-8">
-                                <div class="center vid-col fitvid tablet-up">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/XhskVrYthco?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
-                                </div>
-                            </div>
-                            <div class="col-sm-2"></div>
+                
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <div class="fitvid">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/XhskVrYthco?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
-
-                    <p class="urgency-statement" id="urgency-statement">
-                        There are only <strong id="registration-countdown"></strong> left until the Election.
-                    </p>
+                    <div class="col-md-2"></div>
+                
                 </div>
+
+
+                <p class="urgency-statement" id="urgency-statement">
+                    There are only <strong id="registration-countdown"></strong> left until Election Day (<strong>October 19th</strong>).
+                </p>
             </div>
-
-
+        </div>
+        <div class="container-fluid">
             <div class="row no-pad-bottom">
                 <div class="container">
                     <h2 class="center point-headline">
@@ -479,7 +468,7 @@
             $("#registration-countdown")
             .countdown("2015/10/19", function(event) {
                 $(this).text(
-                    event.strftime('%D days, %H hours, %M minutes, %S seconds')
+                    event.strftime('%D days, %H hours, %M mins, %S seconds')
                 );
             });
         </script>

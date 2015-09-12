@@ -433,33 +433,8 @@ HELPER CLASSES
   padding-top: 20px; }
 
 .splash {
-  overflow: hidden;
-  position: relative;
-  background: none;
+  background: #250C3D;
   color: white; }
-  .splash .background {
-    background: #250C3D;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -2;
-    margin-left: -1px; }
-    .splash .background video {
-      position: absolute;
-      min-width: 100%;
-      min-height: 100%;
-      z-index: -1000;
-      overflow: hidden;
-      border: none; }
-  .splash .call-to-action {
-    padding: 0;
-    max-width: 950px;
-    margin: auto;
-    display: flex; }
-    .splash .call-to-action .sign-up {
-      align-self: center; }
-    .splash .call-to-action .vid-col {
-      padding: 0; }
 
 .video-section {
   width: 100%;
@@ -484,15 +459,15 @@ HELPER CLASSES
   color: #ff33c4; }
 
 .headline {
+  font-size: 26px;
   text-align: center;
   color: white;
-  font-size: 40px;
   padding-top: 70px;
   margin-bottom: 10px; }
 
 .supporting-statement {
+  font-size: 22px;
   text-align: center;
-  font-size: 34px;
   margin-bottom: 20px;
   color: white; }
 
@@ -505,13 +480,28 @@ HELPER CLASSES
 .urgency-statement {
   text-align: center;
   color: white;
-  font-size: 24px;
   padding: 0 0;
-  margin-top: 30px;
+  margin-top: 20px;
   padding-bottom: 25px; }
-  .urgency-statement strong {
-    font-size: 26px; }
 
+@media (min-width: 768px) {
+  .headline {
+    font-size: 30px; }
+
+  .supporting-statement {
+    font-size: 26px; } }
+@media (min-width: 1170px) {
+  .headline {
+    font-size: 40px; }
+
+  .supporting-statement {
+    font-size: 34px; }
+
+  .urgency-statement {
+    font-size: 24px;
+    margin-top: 30px; }
+    .urgency-statement strong {
+      font-size: 26px; } }
 /*--------------------
 COLORS
 --------------------*/
