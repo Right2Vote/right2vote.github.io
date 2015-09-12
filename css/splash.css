@@ -72,7 +72,7 @@ HIDING SHIT
 /*--------------------
 HELPER CLASSES
 --------------------*/
-.center, .guide-title, .guide-subheader {
+.center {
   text-align: center; }
 
 .center-block {
@@ -112,88 +112,89 @@ HELPER CLASSES
 .half-pad-top {
   padding-top: 20px; }
 
-.share-area {
-  padding-top: 20px;
-  background-color: #250C3D;
+.splash {
+  overflow: hidden;
+  position: relative;
+  background: none;
   color: white; }
+  .splash .background {
+    background: #7A28CB;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    margin-left: -1px; }
+    .splash .background video {
+      position: absolute;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1000;
+      overflow: hidden;
+      border: none; }
+  .splash .fader {
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.7;
+    position: absolute;
+    z-index: -1; }
+  .splash .splash-text {
+    max-width: 1000px;
+    margin: auto; }
+  .splash .call-to-action {
+    padding: 0;
+    max-width: 950px;
+    margin: auto;
+    display: flex; }
+    .splash .call-to-action .sign-up {
+      align-self: center; }
+    .splash .call-to-action .vid-col {
+      padding: 0; }
 
-.guide-header-2 {
-  padding-top: 20px; }
+.bottom-statement {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  left: 0;
+  right: 0; }
 
-.guide-list {
-  list-style: none;
+.video-section {
+  width: 100%;
+  margin-bottom: 15px; }
+
+.cta-alternative {
+  text-align: center;
   display: block;
   margin: 0 auto;
-  width: 600px;
-  text-align: center; }
-  .guide-list a {
-    color: white; }
+  color: white; }
 
-/*#guide {
-    display: none;
-}*/
-#guide-registration {
-  padding-top: 20px;
-  display: none; }
+.cta-alternative:hover {
+  color: #ff00b5; }
 
-.help-me-vote-toggle-area {
-  padding-top: 0;
+.cta-alternative:visited {
+  color: white; }
+
+.cta-alternative:visited:hover {
+  color: #ff00b5; }
+
+.cta-alternative:active {
+  color: #ff33c4; }
+
+.headline {
+  text-align: center;
   color: white;
-  background-color: #250C3D;
-  padding-bottom: 20px; }
+  font-size: 40px;
+  padding-top: 65px; }
 
-#guide-vote {
-  display: none;
-  padding-top: 20px; }
+.supporting-statement {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 25px;
+  color: white; }
 
-#guide-vote-cta {
-  display: none; }
-
-#guide-registration-cta {
-  display: none; }
-
-.step-number {
-  text-align: right;
-  font-weight: bold; }
-
-.guide-img {
-  max-width: 100%;
-  margin-bottom: 12px; }
-
-.guide-row {
-  margin-bottom: 20px; }
-  .guide-row p:first-child {
-    padding-top: 2px; }
-
-.email-cta-section {
-  background-color: #250C3D;
-  color: white;
-  padding-bottom: 0; }
-
-.cta-email {
-  width: 80%;
-  margin: 15px auto;
-  display: block; }
-
-@media (min-width: 768px) {
-  .email-cta-box {
-    width: 75%;
-    background-color: #332F49; } }
-.post-fb-plugin {
-  margin-top: 20px;
-  margin-bottom: 10px; }
-
-.help-me-vote-section {
-  padding-top: 20px; }
-
-.first-email-cta-section {
-  color: white;
-  background-color: #332F49;
-  padding: 15px 15px;
-  margin-bottom: 20px; }
-
-.guide-p {
-  margin-bottom: 8px; }
-
-.guide-ul {
-  margin-bottom: 8px; }
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  height: 0; }

@@ -42,7 +42,6 @@
 
         <div class="container-fluid">
             <div class="splash row no-pad flex-container">
-                <div class="fader"></div>
                 <div class="background">
 
                 </div>
@@ -76,22 +75,9 @@
                         </div>
                     </div>
 
-                    <!--<h2 class="center">
-                        There's still Time. 
-                    </h2>-->
-
                     <p class="urgency-statement" id="urgency-statement">
                         There are only <strong id="registration-countdown"></strong> left until the Election.
                     </p>
-
-                    <!--
-                    <div class="bottom-statement">
-                        <h2>
-                            Scroll down for our guide to Registering and Voting in the 2015 Election.
-                        </h2>
-
-                    </div>
-                    -->
                 </div>
             </div>
 
@@ -182,23 +168,16 @@
             </div>
             -->
 
-            <div class="row share-area">
+            <div class="row guide-welcome">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-2"></div>
                         <div class="col-md-8">
-
-                                <h1 class="center">Welcome to our Registration and Voting Guide.</h1>
-
-                                                    <p>We strongly encourage everyone to register to vote in advance if they can, as it will be easier to vote on election day if you do so.
-
-
-                               The deadline for advance registration is <strong>October 13th, 6pm Eastern.</strong> Let's go over the fundamentals so that you understand what's going on.</p>
-                                                        <button id='toggle-register-section'>
-                                    Help me get Registered.
-                                </button>
-                                <!--<h2 class="center">We've split it into 2 sections.</h2>-->
-
+                            <h1 class="center">Welcome to our Registration and Voting Guide.</h1>
+                            <p>We strongly encourage everyone to register to vote in advance if they can, as it will be easier to vote on election day if you do so. The deadline for advance registration is <strong>October 13th, 6pm Eastern.</strong> Let's go over the fundamentals so that you understand what's going on.</p>
+                            <button id='toggle-register-section'>
+                                Help me get Registered.
+                            </button>
                         </div>
                         <div class="col-md-2"></div>
                     </div>
@@ -209,10 +188,6 @@
 
              <div id="guide-registration">
                 <div class="container">
-
-
-
-
                     <div class="row guide-row">
                         <div class="col-sm-1"></div>
                         <div class="col-sm-10">
@@ -532,14 +507,10 @@
                         <div class="right-side-footer">
                              <a href="http://clouda.ca" target="_blank"><img class="footer-clouda" src="img/clouda.png"></img></a>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div> 
-        
-        <!--Organization Section End-->
-
 
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -549,19 +520,19 @@
         <script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
         <script src="bower_components/FitVids/jquery.fitvids.js"></script>
         <script>
-        //FITVIDS INIT
-        $(document).ready(function(){
-            // Target your .container, .wrapper, .post, etc.
-            $(".fitvid").fitVids();
-        });
+            //FITVIDS INIT
+            $(document).ready(function(){
+                // Target your .container, .wrapper, .post, etc.
+                $(".fitvid").fitVids();
+            });
 
-        //COUNTDOWN INIT
-        $("#registration-countdown")
-        .countdown("2015/10/19", function(event) {
-            $(this).text(
-                event.strftime('%D days, %H hours, %M minutes, %S seconds')
-            );
-        });
+            //COUNTDOWN INIT
+            $("#registration-countdown")
+            .countdown("2015/10/19", function(event) {
+                $(this).text(
+                    event.strftime('%D days, %H hours, %M minutes, %S seconds')
+                );
+            });
         </script>
     </body>
 </html>

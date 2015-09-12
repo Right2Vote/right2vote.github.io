@@ -1,4 +1,118 @@
 /*--------------------
+COLORS
+--------------------*/
+.color1-background {
+  color: white;
+  background: #CEEC97; }
+
+.color2-background {
+  color: white;
+  background: #F4B393; }
+
+.color3-background {
+  background: #7A28CB; }
+
+.color4-background {
+  background: #494368;
+  color: white; }
+
+.color4-shadow-background {
+  background: #332f49;
+  color: white; }
+
+.color5-background {
+  background: #ff00b5; }
+
+/*--------------------
+DEFAULTS
+--------------------*/
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 20px; }
+
+body {
+  font-family: "Roboto";
+  font-size: 1.8em;
+  font-weight: 200;
+  line-height: 1.5em; }
+
+h1, h2, h3 {
+  font-family: "Oswald";
+  line-height: 1.3em;
+  margin-bottom: 20px; }
+
+h3 {
+  font-weight: 200; }
+
+h4 {
+  font-weight: 200; }
+
+input {
+  width: 100%;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  border: none; }
+
+/*--------------------
+HIDING SHIT
+--------------------*/
+@media (max-width: 767px) {
+  .mobile-only {
+    display: block !important; }
+
+  .tablet-up {
+    display: none !important; } }
+@media (min-width: 768px) {
+  .mobile-only {
+    display: none !important; }
+
+  .tablet-up {
+    display: block !important; } }
+/*--------------------
+HELPER CLASSES
+--------------------*/
+.center, .guide-title, .guide-subheader {
+  text-align: center; }
+
+.center-block {
+  display: block;
+  margin: 0 auto; }
+
+.right {
+  text-align: right; }
+
+.pad {
+  padding: 20px; }
+
+.add-margin-bottom {
+  margin-bottom: 40px; }
+
+.pad-top-and-bottom {
+  padding: 40px 0px 40px 0px; }
+
+.flex-container {
+  display: flex; }
+  .flex-container .flex-vcenter {
+    align-self: center; }
+
+.no-pad {
+  padding: 0px; }
+
+.no-pad-top {
+  padding-top: 0px; }
+
+.no-pad-bottom {
+  padding-bottom: 0px; }
+
+.no-bottom {
+  padding-bottom: 0;
+  margin-bottom: 0; }
+
+.half-pad-top {
+  padding-top: 20px; }
+
+/*--------------------
 NAV BAR
 --------------------*/
 .header-navbar {
@@ -318,6 +432,421 @@ HELPER CLASSES
 .half-pad-top {
   padding-top: 20px; }
 
+.splash {
+  overflow: hidden;
+  position: relative;
+  background: none;
+  color: white; }
+  .splash .background {
+    background: #250C3D;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    margin-left: -1px; }
+    .splash .background video {
+      position: absolute;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1000;
+      overflow: hidden;
+      border: none; }
+  .splash .call-to-action {
+    padding: 0;
+    max-width: 950px;
+    margin: auto;
+    display: flex; }
+    .splash .call-to-action .sign-up {
+      align-self: center; }
+    .splash .call-to-action .vid-col {
+      padding: 0; }
+
+.video-section {
+  width: 100%;
+  margin-bottom: 15px; }
+
+.cta-alternative {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: white; }
+
+.cta-alternative:hover {
+  color: #ff00b5; }
+
+.cta-alternative:visited {
+  color: white; }
+
+.cta-alternative:visited:hover {
+  color: #ff00b5; }
+
+.cta-alternative:active {
+  color: #ff33c4; }
+
+.headline {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  padding-top: 70px;
+  margin-bottom: 10px; }
+
+.supporting-statement {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 20px;
+  color: white; }
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  height: 0; }
+
+.urgency-statement {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  padding: 0 0;
+  margin-top: 30px;
+  padding-bottom: 25px; }
+  .urgency-statement strong {
+    font-size: 26px; }
+
+/*--------------------
+COLORS
+--------------------*/
+.color1-background {
+  color: white;
+  background: #CEEC97; }
+
+.color2-background {
+  color: white;
+  background: #F4B393; }
+
+.color3-background {
+  background: #7A28CB; }
+
+.color4-background {
+  background: #494368;
+  color: white; }
+
+.color4-shadow-background {
+  background: #332f49;
+  color: white; }
+
+.color5-background {
+  background: #ff00b5; }
+
+/*--------------------
+DEFAULTS
+--------------------*/
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 20px; }
+
+body {
+  font-family: "Roboto";
+  font-size: 1.8em;
+  font-weight: 200;
+  line-height: 1.5em; }
+
+h1, h2, h3 {
+  font-family: "Oswald";
+  line-height: 1.3em;
+  margin-bottom: 20px; }
+
+h3 {
+  font-weight: 200; }
+
+h4 {
+  font-weight: 200; }
+
+input {
+  width: 100%;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  border: none; }
+
+/*--------------------
+HIDING SHIT
+--------------------*/
+@media (max-width: 767px) {
+  .mobile-only {
+    display: block !important; }
+
+  .tablet-up {
+    display: none !important; } }
+@media (min-width: 768px) {
+  .mobile-only {
+    display: none !important; }
+
+  .tablet-up {
+    display: block !important; } }
+/*--------------------
+HELPER CLASSES
+--------------------*/
+.center, .guide-title, .guide-subheader {
+  text-align: center; }
+
+.center-block {
+  display: block;
+  margin: 0 auto; }
+
+.right {
+  text-align: right; }
+
+.pad {
+  padding: 20px; }
+
+.add-margin-bottom {
+  margin-bottom: 40px; }
+
+.pad-top-and-bottom {
+  padding: 40px 0px 40px 0px; }
+
+.flex-container {
+  display: flex; }
+  .flex-container .flex-vcenter {
+    align-self: center; }
+
+.no-pad {
+  padding: 0px; }
+
+.no-pad-top {
+  padding-top: 0px; }
+
+.no-pad-bottom {
+  padding-bottom: 0px; }
+
+.no-bottom {
+  padding-bottom: 0;
+  margin-bottom: 0; }
+
+.half-pad-top {
+  padding-top: 20px; }
+
+/*--------------------
+POINTS
+--------------------*/
+.point-headline {
+  margin-top: 30px;
+  margin-bottom: 10px; }
+
+.point-headline-2 {
+  margin-bottom: 35px; }
+
+.point-container {
+  min-height: 100%; }
+  .point-container .point-inner {
+    margin: 10px; }
+    .point-container .point-inner .point-box {
+      padding: 10px;
+      text-align: center; }
+      .point-container .point-inner .point-box img {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 15px; }
+      .point-container .point-inner .point-box div {
+        padding-top: 10px; }
+
+/*--------------------
+COLORS
+--------------------*/
+.color1-background {
+  color: white;
+  background: #CEEC97; }
+
+.color2-background {
+  color: white;
+  background: #F4B393; }
+
+.color3-background {
+  background: #7A28CB; }
+
+.color4-background {
+  background: #494368;
+  color: white; }
+
+.color4-shadow-background {
+  background: #332f49;
+  color: white; }
+
+.color5-background {
+  background: #ff00b5; }
+
+/*--------------------
+DEFAULTS
+--------------------*/
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 20px; }
+
+body {
+  font-family: "Roboto";
+  font-size: 1.8em;
+  font-weight: 200;
+  line-height: 1.5em; }
+
+h1, h2, h3 {
+  font-family: "Oswald";
+  line-height: 1.3em;
+  margin-bottom: 20px; }
+
+h3 {
+  font-weight: 200; }
+
+h4 {
+  font-weight: 200; }
+
+input {
+  width: 100%;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  border: none; }
+
+/*--------------------
+HIDING SHIT
+--------------------*/
+@media (max-width: 767px) {
+  .mobile-only {
+    display: block !important; }
+
+  .tablet-up {
+    display: none !important; } }
+@media (min-width: 768px) {
+  .mobile-only {
+    display: none !important; }
+
+  .tablet-up {
+    display: block !important; } }
+/*--------------------
+HELPER CLASSES
+--------------------*/
+.center, .guide-title, .guide-subheader {
+  text-align: center; }
+
+.center-block {
+  display: block;
+  margin: 0 auto; }
+
+.right {
+  text-align: right; }
+
+.pad {
+  padding: 20px; }
+
+.add-margin-bottom {
+  margin-bottom: 40px; }
+
+.pad-top-and-bottom {
+  padding: 40px 0px 40px 0px; }
+
+.flex-container {
+  display: flex; }
+  .flex-container .flex-vcenter {
+    align-self: center; }
+
+.no-pad {
+  padding: 0px; }
+
+.no-pad-top {
+  padding-top: 0px; }
+
+.no-pad-bottom {
+  padding-bottom: 0px; }
+
+.no-bottom {
+  padding-bottom: 0;
+  margin-bottom: 0; }
+
+.half-pad-top {
+  padding-top: 20px; }
+
+.guide-welcome {
+  padding-top: 30px;
+  background-color: #250C3D;
+  color: white; }
+
+.guide-header-2 {
+  padding-top: 20px; }
+
+.guide-list {
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  text-align: center; }
+  .guide-list a {
+    color: white; }
+
+#guide-registration {
+  padding-top: 20px;
+  display: none; }
+
+.help-me-vote-toggle-area {
+  padding-top: 0;
+  color: white;
+  background-color: #250C3D;
+  padding-bottom: 20px; }
+
+#guide-vote {
+  display: none;
+  padding-top: 20px; }
+
+#guide-vote-cta {
+  display: none; }
+
+#guide-registration-cta {
+  display: none; }
+
+.step-number {
+  text-align: right;
+  font-weight: bold; }
+
+.guide-img {
+  max-width: 100%;
+  margin-bottom: 12px; }
+
+.guide-row {
+  margin-bottom: 20px; }
+  .guide-row p:first-child {
+    padding-top: 2px; }
+
+.email-cta-section {
+  background-color: #250C3D;
+  color: white;
+  padding-bottom: 0; }
+
+.cta-email {
+  width: 80%;
+  margin: 15px auto;
+  display: block; }
+
+@media (min-width: 768px) {
+  .email-cta-box {
+    width: 75%;
+    background-color: #332F49; } }
+.post-fb-plugin {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+.help-me-vote-section {
+  padding-top: 20px; }
+
+.first-email-cta-section {
+  color: white;
+  background-color: #332F49;
+  padding: 15px 15px;
+  margin-bottom: 20px; }
+
+.guide-p {
+  margin-bottom: 8px; }
+
+.guide-ul {
+  margin-bottom: 8px; }
+
 button {
   position: relative;
   vertical-align: top;
@@ -441,139 +970,11 @@ UNORGANIZED
   font-size: 1.5em;
   margin-bottom: 15px; }
 
-.urgency-statement {
-  text-align: center;
-  color: white;
-  font-size: 24px;
-  padding: 0 0;
-  margin-top: 30px;
-  padding-bottom: 20px; }
-  .urgency-statement strong {
-    font-size: 26px; }
-
 /*--------------------
 COLOR CLASSES
 --------------------*/
 .white {
   color: white; }
-
-/*--------------------
-SPLASH SCREEN
---------------------*/
-.splash {
-  overflow: hidden;
-  position: relative;
-  background: none;
-  color: white; }
-  .splash .background {
-    background: #7A28CB;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -2;
-    margin-left: -1px; }
-    .splash .background video {
-      position: absolute;
-      min-width: 100%;
-      min-height: 100%;
-      z-index: -1000;
-      overflow: hidden;
-      border: none; }
-  .splash .fader {
-    width: 100%;
-    height: 100%;
-    background: black;
-    opacity: 0.7;
-    position: absolute;
-    z-index: -1; }
-  .splash .splash-text {
-    max-width: 1000px;
-    margin: auto; }
-  .splash .call-to-action {
-    padding: 0;
-    max-width: 950px;
-    margin: auto;
-    display: flex; }
-    .splash .call-to-action .sign-up {
-      align-self: center; }
-    .splash .call-to-action .vid-col {
-      padding: 0; }
-
-.bottom-statement {
-  width: 100%;
-  position: absolute;
-  bottom: 10px;
-  text-align: center;
-  left: 0;
-  right: 0; }
-
-.video-section {
-  width: 100%;
-  margin-bottom: 15px; }
-
-.cta-alternative {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  color: white; }
-
-.cta-alternative:hover {
-  color: #ff00b5; }
-
-.cta-alternative:visited {
-  color: white; }
-
-.cta-alternative:visited:hover {
-  color: #ff00b5; }
-
-.cta-alternative:active {
-  color: #ff33c4; }
-
-.headline {
-  text-align: center;
-  color: white;
-  font-size: 40px;
-  padding-top: 65px; }
-
-.supporting-statement {
-  text-align: center;
-  font-size: 34px;
-  margin-bottom: 25px;
-  color: white; }
-
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  /* 16:9 */
-  height: 0; }
-
-/*--------------------
-POINTS
---------------------*/
-.point-headline {
-  margin-top: 30px;
-  margin-bottom: 10px; }
-
-.point-headline-2 {
-  margin-bottom: 25px; }
-
-.point-container {
-  min-height: 100%; }
-  .point-container .point-inner {
-    margin: 10px; }
-    .point-container .point-inner .point-box {
-      padding: 10px;
-      text-align: center; }
-      .point-container .point-inner .point-box img {
-        width: 100%;
-        margin-top: 5px;
-        margin-bottom: 15px; }
-      .point-container .point-inner .point-box div {
-        padding-top: 10px; }
-
-.point-quote-area {
-  margin-top: 40px;
-  margin-bottom: 40px; }
 
 .share-container {
   margin-bottom: 20px;
@@ -582,20 +983,6 @@ POINTS
     height: inherit; }
   .share-container .stButton_gradient {
     height: inherit; }
-
-.iceberg {
-  position: relative;
-  background-image: url(../img/iceberg-overlay.png);
-  background-position: top center;
-  background-size: cover;
-  height: 1180px; }
-  .iceberg .iceberg-bottom {
-    bottom: 0px;
-    position: absolute;
-    width: 100%;
-    margin: auto; }
-  .iceberg a {
-    color: white; }
 
 .quote {
   font-size: 20px;
@@ -627,11 +1014,6 @@ SHARE
     font-size: 36px; }
   .canada-area h2 {
     font-size: 30px; } }
-.share-area {
-  padding-top: 20px;
-  background-color: #250C3D;
-  color: white; }
-
 .fb-area {
   padding-top: 20px; }
 
@@ -650,94 +1032,3 @@ DONATION
 .donation-area {
   padding-top: 20px;
   padding-bottom: 20px; }
-
-.guide-header {
-  padding-top: 70px;
-  background-color: #250C3D;
-  color: white;
-  width: 100%; }
-  .guide-header a {
-    color: #ff33c4; }
-  .guide-header a:hover {
-    color: #ff00b5; }
-
-.guide-header-2 {
-  padding-top: 20px; }
-
-.guide-list {
-  list-style: none;
-  display: block;
-  margin: 0 auto;
-  width: 600px;
-  text-align: center; }
-  .guide-list a {
-    color: white; }
-
-/*#guide {
-    display: none;
-}*/
-#guide-registration {
-  padding-top: 20px;
-  display: none; }
-
-.help-me-vote-toggle-area {
-  padding-top: 0;
-  color: white;
-  background-color: #250C3D;
-  padding-bottom: 20px; }
-
-#guide-vote {
-  display: none;
-  padding-top: 20px; }
-
-#guide-vote-cta {
-  display: none; }
-
-#guide-registration-cta {
-  display: none; }
-
-.step-number {
-  text-align: right;
-  font-weight: bold; }
-
-.guide-img {
-  max-width: 100%;
-  margin-bottom: 12px; }
-
-.guide-row {
-  margin-bottom: 20px; }
-  .guide-row p:first-child {
-    padding-top: 2px; }
-
-.email-cta-section {
-  background-color: #250C3D;
-  color: white;
-  padding-bottom: 0; }
-
-.cta-email {
-  width: 80%;
-  margin: 15px auto;
-  display: block; }
-
-@media (min-width: 768px) {
-  .email-cta-box {
-    width: 75%;
-    background-color: #332F49; } }
-.post-fb-plugin {
-  margin-top: 20px;
-  margin-bottom: 10px; }
-
-.help-me-vote-section {
-  padding-top: 20px; }
-
-.first-email-cta-section {
-  color: white;
-  background-color: #332F49;
-  padding: 15px 15px;
-  margin-bottom: 20px; }
-
-.guide-p {
-  margin-bottom: 8px; }
-
-.guide-ul {
-  margin-bottom: 8px; }

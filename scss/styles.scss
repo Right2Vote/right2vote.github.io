@@ -1,6 +1,9 @@
+@import "base.scss";
 @import "navbar.scss";
 @import "footer.scss";
-@import "base.scss";
+@import "splash.scss";
+@import "points.scss";
+@import "guide.scss";
 
 // Buttons
 button {
@@ -179,24 +182,6 @@ UNORGANIZED
     margin-bottom: 15px;
 }
 
-.urgency-statement {
-    text-align: center;
-    color: white;
-    font-size: 24px;
-    padding: 0 0;
-    margin-top: 30px;
-    padding-bottom: 20px;
-    
-    strong {
-        font-size: 26px;
-    }
-}
-
-.mobile-vid {
-    
-}
-
-
 /*--------------------
 COLOR CLASSES
 --------------------*/
@@ -206,178 +191,9 @@ COLOR CLASSES
 }
 
 
-/*--------------------
-SPLASH SCREEN
---------------------*/
-
-.splash {
-    overflow: hidden;
-    position: relative; //needed to make overflow work
-    background: none;
-    color: white;
-    
-    .background {
-
-        //Backup image for when video fails
-        background: $color3;
-
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        z-index: -2;
-        margin-left: -1px;
-
-        video {
-            position: absolute;
-            min-width: 100%;
-            min-height: 100%;
-            z-index: -1000;
-            overflow: hidden;
-            border: none;
-        }
-    }
-
-    .fader {
-        width: 100%;
-        height: 100%;
-        background: black;
-        opacity: 0.7;
-        position: absolute;
-        z-index: -1;
-    }
-
-    .splash-text {
-
-        max-width: 1000px;
-        margin: auto;
-    }
-
-    .call-to-action {
-        padding:0;
-        max-width: 950px;
-        margin: auto;
-        display: flex;
-
-        .sign-up {
-            align-self: center;
-        }
-
-        .vid-col {
-            padding: 0;
-        }
-    }
-}
-
-.bottom-statement {
-    width: 100%;
-    position: absolute;
-    bottom: 10px;
-    text-align: center;
-    left:0;
-    right:0;
-}
-
-.video-section {
-    //background: black;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-
-@media (min-width: 768px) {
-    .splash {
-        //height: 100vh;
-    }
-}
-
-.cta-alternative {
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    color: white;   
-}
-
-.cta-alternative:hover {
-    color: $color5;
-}
-
-.cta-alternative:visited {
-    color: white;   
-}
-
-.cta-alternative:visited:hover {
-    color: $color5;  
-}
-
-.cta-alternative:active {
-    color: $color5-highlight;
-}
-
-.headline {
-    text-align: center;
-    color: white;
-    font-size: 40px;
-    padding-top: 65px;
-}
-
-.supporting-statement {
-    text-align: center;
-    font-size: 34px;
-    margin-bottom: 25px;
-    color: white;
-}
-
-.videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	height: 0;
-}
 
 
 
-/*--------------------
-POINTS
---------------------*/
-
-.point-headline {
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-
-.point-headline-2 {
-    margin-bottom: 25px;
-}
-
-.point-container {
-
-    min-height: 100%;
-
-    .point-inner{
-        margin: 10px;
-
-
-        .point-box {
-            padding: 10px;
-            //border: 1px solid black;
-            text-align: center;
-
-            img {
-                width: 100%;
-                margin-top: 5px;
-                margin-bottom: 15px;
-            }
-
-            div {
-                padding-top: 10px;
-            }
-        }
-    }
-}
-
-.point-quote-area {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
 
 .share-container {
     margin-bottom: 20px;
@@ -392,29 +208,6 @@ POINTS
     }
 }
 
-
-
-.iceberg {
-    position:relative;
-    background-image: url(../img/iceberg-overlay.png);
-
-    background-position: top center;
-    background-size: cover;
-
-    height: 1180px;
-
-    .iceberg-bottom {
-        bottom: 0px;
-        position: absolute;
-        width: 100%;
-        //padding: 30px;
-        margin:auto;
-    }
-    
-    a {
-        color: white;
-    }
-}
 
 .quote {
     font-size: 20px;
@@ -477,12 +270,6 @@ SHARE
 
 }
 
-.share-area {   
-    padding-top: 20px;
-    background-color: #250C3D;
-    color: white;
-}
-
 .fb-area {
     padding-top: 20px;
 }
@@ -509,148 +296,3 @@ DONATION
     @include standard-section;
 }
 
-.guide-header {
-    padding-top: 70px;
-    background-color: $splash-bg-color;
-    color: white;
-    width: 100%;
-    
-    a {
-        color: $color5-highlight;
-    }
-    
-    a:hover {
-        color: $color5;  
-    } 
-}
-
-.guide-header-2 {
-    padding-top: 20px;
-}
-
-.guide-title {
-    @extend .center;
-}
-
-.guide-subheader {
-    @extend .center;
-}
-
-.guide-list {
-    list-style: none;
-    display: block;
-    margin: 0 auto;
-    width: 600px;
-    text-align: center;
-    
-    a { 
-        color: white;
-    }
-}
-
-/*#guide {
-    display: none;
-}*/
-
-#guide-registration {
-    padding-top: 20px;
-    display:none;
-}
-
-.help-me-vote-toggle-area {
-    padding-top: 0;
-    color: white;
-    background-color: $splash-bg-color;
-    padding-bottom: 20px;
-}
-
-#guide-vote {
-    display:none;
-    padding-top: 20px;
-}
-
-#guide-vote-cta {
-    display:none;
-}
-
-#guide-registration-cta {
-    display:none; 
-}
-
-.step-number {
-    text-align: right;
-    font-weight: bold;
-}
-
-.guide-img {
-    max-width: 100%;
-    margin-bottom: 12px;
-}
-
-.guide-row {
-    margin-bottom: 20px;
-    
-    p:first-child {
-        padding-top: 2px;   
-    }
-}
-
-.email-cta-section {
-    //background: -webkit-linear-gradient(black, $splash-bg-color); /* For Safari 5.1 to 6.0 */
-    //background: -o-linear-gradient(black, $splash-bg-color); /* For Opera 11.1 to 12.0 */
-    //background: -moz-linear-gradient(black, $splash-bg-color); /* For Firefox 3.6 to 15 */
-    //background: linear-gradient(black, $splash-bg-color); /* Standard syntax */
-    
-    background-color: $splash-bg-color;
-    color: white;
-    padding-bottom: 0;
-}
-
-.email-cta-box {
-    
-    //padding: 10px 0px;
-    //margin: 0 auto;
-
-}
-
-.cta-email {
-    width: 80%;
-    margin: 15px auto;
-    display: block;
-}
-
-@media (min-width: 768px) {
-    .email-cta-box {
-        width: 75%;
-        background-color: #332F49;
-
-    }
-}
-
-.cta-checkbox {
-    
-}
-
-.post-fb-plugin {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.help-me-vote-section {
-    padding-top: 20px;
-}
-
-.first-email-cta-section {
-    color: white;
-    background-color: #332F49;
-    padding: 15px 15px;
-    margin-bottom: 20px;
-}
-
-.guide-p {
-    margin-bottom: 8px;
-}
-
-.guide-ul {
-    margin-bottom: 8px;
-}

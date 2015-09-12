@@ -72,7 +72,7 @@ HIDING SHIT
 /*--------------------
 HELPER CLASSES
 --------------------*/
-.center, .guide-title, .guide-subheader {
+.center {
   text-align: center; }
 
 .center-block {
@@ -112,88 +112,26 @@ HELPER CLASSES
 .half-pad-top {
   padding-top: 20px; }
 
-.share-area {
-  padding-top: 20px;
-  background-color: #250C3D;
-  color: white; }
-
-.guide-header-2 {
-  padding-top: 20px; }
-
-.guide-list {
-  list-style: none;
-  display: block;
-  margin: 0 auto;
-  width: 600px;
-  text-align: center; }
-  .guide-list a {
-    color: white; }
-
-/*#guide {
-    display: none;
-}*/
-#guide-registration {
-  padding-top: 20px;
-  display: none; }
-
-.help-me-vote-toggle-area {
-  padding-top: 0;
-  color: white;
-  background-color: #250C3D;
-  padding-bottom: 20px; }
-
-#guide-vote {
-  display: none;
-  padding-top: 20px; }
-
-#guide-vote-cta {
-  display: none; }
-
-#guide-registration-cta {
-  display: none; }
-
-.step-number {
-  text-align: right;
-  font-weight: bold; }
-
-.guide-img {
-  max-width: 100%;
-  margin-bottom: 12px; }
-
-.guide-row {
-  margin-bottom: 20px; }
-  .guide-row p:first-child {
-    padding-top: 2px; }
-
-.email-cta-section {
-  background-color: #250C3D;
-  color: white;
-  padding-bottom: 0; }
-
-.cta-email {
-  width: 80%;
-  margin: 15px auto;
-  display: block; }
-
-@media (min-width: 768px) {
-  .email-cta-box {
-    width: 75%;
-    background-color: #332F49; } }
-.post-fb-plugin {
-  margin-top: 20px;
+/*--------------------
+POINTS
+--------------------*/
+.point-headline {
+  margin-top: 30px;
   margin-bottom: 10px; }
 
-.help-me-vote-section {
-  padding-top: 20px; }
+.point-headline-2 {
+  margin-bottom: 35px; }
 
-.first-email-cta-section {
-  color: white;
-  background-color: #332F49;
-  padding: 15px 15px;
-  margin-bottom: 20px; }
-
-.guide-p {
-  margin-bottom: 8px; }
-
-.guide-ul {
-  margin-bottom: 8px; }
+.point-container {
+  min-height: 100%; }
+  .point-container .point-inner {
+    margin: 10px; }
+    .point-container .point-inner .point-box {
+      padding: 10px;
+      text-align: center; }
+      .point-container .point-inner .point-box img {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 15px; }
+      .point-container .point-inner .point-box div {
+        padding-top: 10px; }

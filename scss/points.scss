@@ -1,0 +1,40 @@
+@import "_base.scss";
+
+/*--------------------
+POINTS
+--------------------*/
+
+.point-headline {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.point-headline-2 {
+    margin-bottom: 35px;
+}
+
+.point-container {
+
+    min-height: 100%;
+
+    .point-inner{
+        margin: 10px;
+
+
+        .point-box {
+            padding: 10px;
+            //border: 1px solid black;
+            text-align: center;
+
+            img {
+                width: 100%;
+                margin-top: 5px;
+                margin-bottom: 15px;
+            }
+
+            div {
+                padding-top: 10px;
+            }
+        }
+    }
+}
