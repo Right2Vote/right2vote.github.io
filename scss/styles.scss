@@ -55,9 +55,13 @@ button:active {
     padding-bottom: 20px;
 }
 
+.share-headline {
+    font-size: 26px;
+}
+
 @media (min-width: 768px) {
-    .share-cta-box {
-        //background-color: #332F49;
+    .share-headline {
+        font-size: 30px;
     }
 }
 

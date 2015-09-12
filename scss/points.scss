@@ -4,17 +4,7 @@
 POINTS
 --------------------*/
 
-.point-headline {
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-
-.point-headline-2 {
-    margin-bottom: 35px;
-}
-
 .point-container {
-
     min-height: 100%;
 
     .point-inner{
@@ -36,5 +26,26 @@ POINTS
                 padding-top: 10px;
             }
         }
+    }
+}
+
+.point-headline {
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.point-headline-2 {
+    font-size: 26px;
+    margin-bottom: 35px;
+}
+
+@media (min-width: 1170px) {
+    .point-headline {
+        font-size: 30px;   
+    }
+    
+    .point-headline-2 {
+        font-size: 30px;   
     }
 }

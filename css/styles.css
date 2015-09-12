@@ -619,13 +619,6 @@ HELPER CLASSES
 /*--------------------
 POINTS
 --------------------*/
-.point-headline {
-  margin-top: 30px;
-  margin-bottom: 10px; }
-
-.point-headline-2 {
-  margin-bottom: 35px; }
-
 .point-container {
   min-height: 100%; }
   .point-container .point-inner {
@@ -640,6 +633,21 @@ POINTS
       .point-container .point-inner .point-box div {
         padding-top: 10px; }
 
+.point-headline {
+  font-size: 26px;
+  margin-top: 30px;
+  margin-bottom: 10px; }
+
+.point-headline-2 {
+  font-size: 26px;
+  margin-bottom: 35px; }
+
+@media (min-width: 1170px) {
+  .point-headline {
+    font-size: 30px; }
+
+  .point-headline-2 {
+    font-size: 30px; } }
 /*--------------------
 COLORS
 --------------------*/
@@ -814,24 +822,6 @@ HELPER CLASSES
   .guide-row p:first-child {
     padding-top: 2px; }
 
-.email-cta-section {
-  background-color: #250C3D;
-  color: white;
-  padding-bottom: 0; }
-
-.cta-email {
-  width: 80%;
-  margin: 15px auto;
-  display: block; }
-
-@media (min-width: 768px) {
-  .email-cta-box {
-    width: 75%;
-    background-color: #332F49; } }
-.post-fb-plugin {
-  margin-top: 20px;
-  margin-bottom: 10px; }
-
 .help-me-vote-section {
   padding-top: 20px; }
 
@@ -847,6 +837,12 @@ HELPER CLASSES
 .guide-ul {
   margin-bottom: 8px; }
 
+.guide-headline {
+  font-size: 26px; }
+
+@media (min-width: 768px) {
+  .guide-headline {
+    font-size: 30px; } }
 button {
   position: relative;
   vertical-align: top;
@@ -889,6 +885,12 @@ button:active {
   margin-top: 10px;
   padding-bottom: 20px; }
 
+.share-headline {
+  font-size: 26px; }
+
+@media (min-width: 768px) {
+  .share-headline {
+    font-size: 30px; } }
 /*--------------------
 SHARE
 --------------------*/

@@ -86,47 +86,6 @@
     }
 }
 
-.email-cta-section {
-    //background: -webkit-linear-gradient(black, $splash-bg-color); /* For Safari 5.1 to 6.0 */
-    //background: -o-linear-gradient(black, $splash-bg-color); /* For Opera 11.1 to 12.0 */
-    //background: -moz-linear-gradient(black, $splash-bg-color); /* For Firefox 3.6 to 15 */
-    //background: linear-gradient(black, $splash-bg-color); /* Standard syntax */
-    
-    background-color: $splash-bg-color;
-    color: white;
-    padding-bottom: 0;
-}
-
-.email-cta-box {
-    
-    //padding: 10px 0px;
-    //margin: 0 auto;
-
-}
-
-.cta-email {
-    width: 80%;
-    margin: 15px auto;
-    display: block;
-}
-
-@media (min-width: 768px) {
-    .email-cta-box {
-        width: 75%;
-        background-color: #332F49;
-
-    }
-}
-
-.cta-checkbox {
-    
-}
-
-.post-fb-plugin {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
 .help-me-vote-section {
     padding-top: 20px;
 }
@@ -144,4 +103,14 @@
 
 .guide-ul {
     margin-bottom: 8px;
+}
+
+.guide-headline {
+    font-size: 26px;
+}
+
+@media (min-width: 768px) {
+    .guide-headline {
+        font-size: 30px;   
+    }
 }
