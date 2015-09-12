@@ -10554,6 +10554,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/r2v_fb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48962,
+		"inputAbbreviatedPath": "\/img\/r2v_fb.png",
+		"outputAbbreviatedPath": "\/img\/r2v_fb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/r2v_icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
