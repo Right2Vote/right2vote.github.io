@@ -838,7 +838,8 @@ HELPER CLASSES
   margin-bottom: 8px; }
 
 .guide-headline {
-  font-size: 26px; }
+  font-size: 26px;
+  text-align: center; }
 
 @media (min-width: 768px) {
   .guide-headline {
