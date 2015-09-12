@@ -15,4 +15,7 @@ jQuery(document).ready(function(){
             window.open('https://www.facebook.com/right2votecanada');   
         }
     });
+    jQuery('#elections-ca-register').on('click', function() {
+        window.open('http://elections.ca/register');   
+    });
 });
