@@ -782,7 +782,7 @@ HELPER CLASSES
     color: white; }
 
 .register-button {
-  margin-top: 20px; }
+  margin-top: 30px; }
 
 #guide-registration {
   padding-top: 30px;
@@ -798,9 +798,12 @@ HELPER CLASSES
   background-color: #250C3D;
   padding-bottom: 20px; }
 
+.toggle-vote-section {
+  margin-top: 20px; }
+
 #guide-vote {
   display: none;
-  padding-top: 20px; }
+  padding-top: 30px; }
 
 #guide-vote-cta {
   display: none; }
