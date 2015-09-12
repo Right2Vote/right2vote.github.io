@@ -2,6 +2,7 @@
 
 .footer {
     padding: 0 0;
+    padding-bottom: 5px;   
     background-color: black;
     color: white;
     width: 100%;
@@ -29,15 +30,13 @@
 }
 
 .footer-right2vote {
-    display: none;
     margin: auto;
     height: 20px;
     margin-top: 10px;
 }
 
 .footer-privacy-policy {
-    margin-left: -30px;
-    padding-top: 3px;
+    //padding-top: 3px;
 }
 
 .footer-clouda {
@@ -54,14 +53,10 @@
         height: 45px;
     }
     
-    .footer-right2vote {
-        height: 28px;
-    }
-    
     .footer-privacy-policy {
-        margin-top: 18px;
         font-size: 14px;
         margin-left: none;   
+        text-align: center;
     }
     
     .footer-clouda {
@@ -71,11 +66,17 @@
 }
 
 @media (min-width: 768px) {
+    .footer {
+       
+    }
+    
     .footer-thinkrad {
         left: 64px;
     }
     
     .footer-right2vote {
+        height: 28px;
+        margin-top: 15px;
         display: block;   
     }
     
