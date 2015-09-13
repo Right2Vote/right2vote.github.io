@@ -844,6 +844,14 @@ HELPER CLASSES
 @media (min-width: 768px) {
   .guide-headline {
     font-size: 30px; } }
+.guide-facebook-cta-section {
+  background-color: #250C3D;
+  color: white;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  width: 100%; }
+
 button {
   position: relative;
   vertical-align: top;
