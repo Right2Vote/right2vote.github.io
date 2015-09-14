@@ -15,6 +15,14 @@ jQuery(document).ready(function(){
             window.open('https://www.facebook.com/right2votecanada');   
         }
     });
+    jQuery('#facebook-cta-register').on('click', function() {
+        if (jQuery.browser.mobile) {
+            window.location = 'fb://profile/859872477420296'; 
+        }
+        else {
+            window.open('https://www.facebook.com/right2votecanada');   
+        }
+    });
     jQuery('#elections-ca-register').on('click', function() {
         window.open('http://elections.ca/register');   
     });
