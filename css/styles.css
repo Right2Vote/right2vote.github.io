@@ -462,7 +462,7 @@ HELPER CLASSES
   font-size: 26px;
   text-align: center;
   color: white;
-  padding-top: 70px;
+  padding-top: 65px;
   margin-bottom: 10px; }
 
 .supporting-statement {
@@ -483,6 +483,9 @@ HELPER CLASSES
   padding: 0 0;
   margin-top: 20px;
   padding-bottom: 25px; }
+
+.pre-register-button {
+  text-align: center; }
 
 @media (min-width: 768px) {
   .headline {
@@ -763,7 +766,7 @@ HELPER CLASSES
   padding-top: 20px; }
 
 .guide-welcome {
-  padding-top: 30px;
+  padding-top: 20px;
   background-color: #250C3D;
   color: white; }
 
@@ -780,10 +783,11 @@ HELPER CLASSES
     color: white; }
 
 .register-button {
-  margin-top: 30px; }
+  margin-top: 20px;
+  margin-bottom: 10px; }
 
 #guide-registration {
-  padding-top: 30px;
+  padding-top: 20px;
   display: none; }
 
 .registration-quote-area {
@@ -791,17 +795,17 @@ HELPER CLASSES
   margin-bottom: 40px; }
 
 .help-me-vote-toggle-area {
-  padding-top: 20px;
+  padding-top: 10px;
   color: white;
   background-color: #250C3D;
-  padding-bottom: 20px; }
+  padding-bottom: 10px; }
 
 .toggle-vote-section {
-  margin-top: 30px; }
+  margin-top: 20px; }
 
 #guide-vote {
   display: none;
-  padding-top: 30px; }
+  padding-top: 20px; }
 
 #guide-vote-cta {
   display: none; }

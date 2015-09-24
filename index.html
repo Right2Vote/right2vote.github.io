@@ -45,12 +45,12 @@
             <div class="container">
                 <div class="center no-pad-bottom">
                     <h2 class="headline">
-                        Think you're prepared to vote in the 2015 Canadian Election?
+                        Ready to vote in the 2015 Canadian Election?
                     </h2>
 
 
                     <h3 class="supporting-statement">
-                        You might not be. The Fair Elections Act is making it harder to prove your identity.
+                        The Fair Elections Act could stop you.
                     </h3>
                 </div>
                 
@@ -66,12 +66,12 @@
                 </div>
 
 
-                <p class="urgency-statement" id="urgency-statement">
+                <!--<p class="urgency-statement" id="urgency-statement">
                     There are only <strong id="registration-countdown"></strong> left until Election Day (<strong>October 19th</strong>).
-                </p>
+                </p>-->
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid tablet-up">
             <div class="row no-pad-bottom">
                 <div class="container">
                     <h2 class="center point-headline">
@@ -138,8 +138,8 @@
                     <div class="row">
                         <div class="col-md-2"></div>
                         <div class="col-md-8">
-                            <h1 class="center guide-headline">Welcome to our Registration and Voting Guide.</h1>
-                            <p>We encourage everyone to register to vote in advance if they can, as it will be easier to vote on election day if you do so. The deadline for advance registration is <strong>October 13th.</strong></p>
+                            <!--<h1 class="center guide-headline tablet-up">Welcome to our Registration and Voting Guide.</h1>-->
+                            <p class="pre-register-button">The deadline for advance registration is <strong>October 13th.</strong></p>
                             <button id='toggle-register-section' class="register-button">
                                 Help me get Registered.
                             </button>
@@ -153,24 +153,8 @@
 
              <div id="guide-registration">
                 <div class="container">
-                    <div class="row guide-row">
-                        <div class="col-sm-1"></div>
-                        <div class="col-sm-10">
-                            <h2 class="guide-headline">Clarification: "Checking" vs. "Updating" vs. "Registering"</h2>
-                            <p>These core concepts are poorly explained on the Elections Canada website. Let's examine each in turn:</p> 
-
-                            <ul>
-                                <li><strong>Checking your Registration:</strong> If you voted in the last election, reside at the same address and haven't changed your name, then you're probably fine, and the online service will simply confirm that you are registered to vote. </li>
-                                <li><strong>Updating your Registration:</strong> In the case that you've moved, use the online service and enter the address that you had when you last voted, <strong>not</strong> your current address. This will kickstart the registration update process. If you've changed your name, you also will need to update, but that will require a paper form.
-                                <li><strong>Registering:</strong> If you have never voted before, you will have to register.</li>
-                            </ul>
-
-
-
-                        </div>
-                        <div class="col-sm-1"></div>
-                    </div>
-
+                    <p class="center">There are <strong>5 ways</strong> to register to vote. </p>
+                    
                     <h2 class="guide-headline">Option 1: Advance Online Registration</h2>
 
                     <div class="row guide-row">
@@ -182,7 +166,8 @@
                                 <li>You've changed your name since you last voted.</li>
                                 <li>You live abroad.</li>
                                 <li>You're a member of the Canadian Forces.</li>
-                                <li>You don't have the proper address type. It needs to be one of these three: civic (for example, 123 Main Street), lot and concession, or Section-Township-Range-Meridian.</li>
+                                <li>You don't have the proper address type. We've seen a number of reports saying that people in rural communities are having difficulty registering (such as <a href="http://www.cbc.ca/news/canada/nova-scotia/fair-elections-act-delays-ex-nova-scotia-party-leader-from-casting-vote-1.3215523">this one</a> and <a href="http://www.cbc.ca/news/canada/nova-scotia/elections-canada-online-registration-problems-1.3240393">this one</a>).
+                                </li>
                                 <li>You don't have proper identification. This one is tricky, and deserves some attention:
                                     <ul>
                                         <li>In every province except for Quebec, your provincial driver's license is an acceptable form of online registration identification</li>
@@ -208,32 +193,39 @@
                         </div>
                         <div class="col-sm-1"></div>
                     </div>
+                    
+                 <div class="row guide-row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
+                            
+                            
+                            <h2 class="guide-headline">Clarification: "Checking" vs. "Updating" vs. "Registering"</h2>
+                            <p>These core concepts are poorly explained on the Elections Canada website. Let's examine each in turn:</p> 
+
+                            <ul>
+                                <li><strong>Checking your Registration:</strong> If you voted in the last election, reside at the same address and haven't changed your name, then you're probably fine, and the online service will simply confirm that you are registered to vote. </li>
+                                <li><strong>Updating your Registration:</strong> In the case that you've moved, use the online service and enter the address that you had when you last voted, <strong>not</strong> your current address. This will kickstart the registration update process. If you've changed your name, you also will need to update, but that will require a paper form.
+                                <li><strong>Registering:</strong> If you have never voted before, you will have to register.</li>
+                            </ul>
+
+                            <button id="facebook-cta-register" class="facebook-button">Support us on <img class="facebook-button-text" src="img/facebook_text.png"></button>
+
+
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>    
+                
                  </div>
                  
-
-                <div class="guide-facebook-cta-section">
-                    <div class="container">
-                        <div class="row">
-                           <div class="col-md-2"></div>
-                            <div class="col-md-8">
-                                <div class="email-cta-box">
-                                    <h1 class="guide-headline">Finding this guide useful?</h1>
-
-                                    <button id="facebook-cta-register" class="facebook-button">Support us on <img class="facebook-button-text" src="img/facebook_text.png"></button>
-
-                                    <h2 class="guide-headline post-fb-plugin">Help us reach as many Canadians as possible.</h2>
-                                </div>
-                            </div>
-                            <div class="col-md-2"></div>
-                        </div>
-                    </div>
-                </div>
-       
+                 
+               
+        
 
                 <div class="container">
                     <div class="row guide-row">
                         <div class="col-sm-1"></div>
                         <div class="col-sm-10">
+                                                                
                             <h2 class="center">Option 2: Advance Registration at your Local Elections Canada Office</h2>
                             <p>You can register before the October 13th, 6:00pm deadline at your local Elections Canada office. The location of your district's office can be obtained using <a href="http://www.elections.ca/Scripts/vis/FindED?L=e&QID=-1&PAGEID=20" target="_blank">this form on the Elections Canada website.</a> The staff at the office should be able to guide you through your registration odyssey in-person.</p>
                         </div>
@@ -284,7 +276,8 @@
                     <div class="row">
                         <div class="col-md-2"></div>
                         <div class="col-md-8">
-                            <p>As with registering, there are several distinct options when it comes to actually casting a ballot. Let's examine <strong>when, where</strong> and <strong>how</strong> you can vote using any of the 5 available options.</p>
+                            <p class="center">The election is being held on <strong>October 19th.</strong></p>
+                            
                             <button id='toggle-vote-section' class="toggle-vote-section">
                                 Help me Vote!
                             </button>
@@ -299,6 +292,20 @@
              <div id="guide-vote">
                  <div class="container">
                     <div class="row guide-row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
+                            <h2 class="guide-headline">Option 1: Vote at your Riding's Polling Station on Election Day</h2>
+                            <ul>
+                                <li><strong>When:</strong> Monday, October 19th, 2015</li>
+                                <li><strong>Where:</strong> If you've registered to vote, Elections Canada should send you a Voter Information Card in the mail by October 1st. This will tell you where your riding's polling station is located. If you haven't received your card, you should be able to find your polling station online using <a href="http://www.elections.ca/scripts/vis/FindED?L=e&PAGEID=20" target="_blank">this Elections Canada page</a>. It's still early - they haven't posted that information yet.</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                     
+                     <button id="facebook-cta-vote" class="facebook-button">Support us on <img class="facebook-button-text" src="img/facebook_text.png"></button>
+                     
+                     <div class="row guide-row">
                         <div class="col-sm-1"></div>
                         <div class="col-sm-10">
                             <h2 class="guide-headline">Voting ID this year is like Fish &amp; Chips - You can get a 1-piece or a 2-piece</h2>
@@ -331,38 +338,6 @@
 
 
 
-                        </div>
-                        <div class="col-sm-1"></div>
-                    </div>
-                 </div>
-                 
-                 <div class="guide-facebook-cta-section">
-                    <div class="container">
-                        <div class="row">
-                           <div class="col-md-2"></div>
-                            <div class="col-md-8">
-                                <div class="email-cta-box">
-                                    <h1 class="guide-headline">Finding this guide useful?</h1>
-
-                                    <button id="facebook-cta-vote" class="facebook-button">Support us on <img class="facebook-button-text" src="img/facebook_text.png"></button>
-
-                                    <h2 class="guide-headline post-fb-plugin">Help us reach as many Canadians as possible.</h2>
-                                </div>
-                            </div>
-                            <div class="col-md-2"></div>
-                        </div>
-                    </div>
-                </div>
-
-                 <div class="container">
-                    <div class="row guide-row">
-                        <div class="col-sm-1"></div>
-                        <div class="col-sm-10">
-                            <h2 class="guide-headline">Option 1: Vote at your Riding's Polling Station on Election Day</h2>
-                            <ul>
-                                <li><strong>When:</strong> Monday, October 19th, 2015</li>
-                                <li><strong>Where:</strong> If you've registered to vote, Elections Canada should send you a Voter Information Card in the mail by October 1st. This will tell you where your riding's polling station is located. If you haven't received your card, you should be able to find your polling station online using <a href="http://www.elections.ca/scripts/vis/FindED?L=e&PAGEID=20" target="_blank">this Elections Canada page</a>. It's still early - they haven't posted that information yet.</li>
-                            </ul>
                         </div>
                         <div class="col-sm-1"></div>
                     </div>
@@ -440,29 +415,8 @@
 
         <div class="fb-area">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-8">
-                        <div class="share-cta-box">
-                            <h1 class="center share-headline">Follow our simple 3-step process:</h1>
-
-                            <div class="share-instructions">
-                                <ol>
-                                    <li><strong>Read</strong> our guide</li>
-                                    <li><strong>Like</strong> our guide</li>
-                                    <li><strong>Share</strong> our guide</li>
-                                </ol>
-                            </div>
-
-                            <button id="facebook-cta" class="facebook-button">Support us on <img class="facebook-button-text" src="img/facebook_text.png"></button>
-
-                            <h3 class="center">Sharing is like voting - the whole is greater than the sum of its parts.</h3>
-                        </div>
-
-
-                    </div>
-                    <div class="col-md-2"></div>
-                </div>
+                <h3 class="center">Like us on Facebook to stay updated.</h3>
+                <div class="fb-page" data-href="https://www.facebook.com/right2votecanada" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/right2votecanada"><a href="https://www.facebook.com/right2votecanada">Right2Vote</a></blockquote></div></div>
 
             </div>
         </div>

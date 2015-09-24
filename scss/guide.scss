@@ -1,7 +1,7 @@
 @import "base.scss";
 
 .guide-welcome {   
-    padding-top: 30px;
+    padding-top: 20px;
     background-color: #250C3D;
     color: white;
 }
@@ -31,11 +31,12 @@
 }
 
 .register-button {
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 #guide-registration {
-    padding-top: 30px;
+    padding-top: 20px;
     display:none;
 }
 
@@ -45,19 +46,19 @@
 }
 
 .help-me-vote-toggle-area {
-    padding-top: 20px;
+    padding-top: 10px;
     color: white;
     background-color: $splash-bg-color;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .toggle-vote-section {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #guide-vote {
     display:none;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 #guide-vote-cta {
