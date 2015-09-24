@@ -822,7 +822,7 @@ HELPER CLASSES
   margin-bottom: 12px; }
 
 .guide-row {
-  margin-bottom: 20px; }
+  margin-bottom: 10px; }
   .guide-row p:first-child {
     padding-top: 2px; }
 
@@ -844,6 +844,9 @@ HELPER CLASSES
 .guide-headline {
   font-size: 26px;
   text-align: center; }
+
+.post-fb-page {
+  margin-top: 20px; }
 
 @media (min-width: 768px) {
   .guide-headline {

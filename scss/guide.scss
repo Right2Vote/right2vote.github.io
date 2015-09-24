@@ -80,7 +80,7 @@
 }
 
 .guide-row {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     
     p:first-child {
         padding-top: 2px;   
@@ -109,6 +109,10 @@
 .guide-headline {
     font-size: 26px;
     text-align: center;
+}
+
+.post-fb-page {
+    margin-top: 20px;
 }
 
 @media (min-width: 768px) {
