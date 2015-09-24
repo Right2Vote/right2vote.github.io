@@ -71,7 +71,12 @@
 }
 
 @media (min-width: 768px) {
+    .splash {
+        padding-bottom: 50px;   
+    }
+    
     .headline {
+        padding-top: 75px;
         font-size: 30px;   
     }
     
