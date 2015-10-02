@@ -996,7 +996,7 @@ HELPER CLASSES
   margin-bottom: 0; }
 
 .campus-text-container {
-  width: 240px;
+  width: 270px;
   margin: 0 auto; }
 
 .campus-text {
@@ -1035,7 +1035,8 @@ HELPER CLASSES
   margin-bottom: 10px; }
 
 .post-fb-text {
-  margin-top: 10px; }
+  margin-top: 15px;
+  margin-bottom: 15px; }
 
 .wat {
   background: #250C3D;

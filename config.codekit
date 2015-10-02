@@ -10552,6 +10552,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/parties.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24931,
+		"inputAbbreviatedPath": "\/img\/parties.png",
+		"outputAbbreviatedPath": "\/img\/parties.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/power_bill.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
