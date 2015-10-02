@@ -996,6 +996,7 @@ HELPER CLASSES
   margin-bottom: 0; }
 
 .campus-text-container {
+  padding-top: 5px;
   width: 270px;
   margin: 0 auto; }
 
@@ -1008,7 +1009,7 @@ HELPER CLASSES
 
 .hometown-riding-headline {
   margin-top: -7px;
-  font-size: 26px; }
+  font-size: 40px; }
 
 .on-campus-headline {
   text-transform: uppercase;
@@ -1048,6 +1049,9 @@ HELPER CLASSES
   text-transform: uppercase;
   font-size: 100px;
   color: white; }
+
+.how-who-whr {
+  padding-bottom: 5px; }
 
 button {
   position: relative;
