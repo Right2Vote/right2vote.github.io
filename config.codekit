@@ -10541,6 +10541,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/joan_license.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 380454,
+		"inputAbbreviatedPath": "\/img\/joan_license.png",
+		"outputAbbreviatedPath": "\/img\/joan_license.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/power_bill.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
