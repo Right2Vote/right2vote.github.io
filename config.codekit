@@ -10497,13 +10497,13 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/cloudA.png": {
+	"\/img\/clouda.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 9066,
-		"inputAbbreviatedPath": "\/img\/cloudA.png",
-		"outputAbbreviatedPath": "\/img\/cloudA.png",
+		"inputAbbreviatedPath": "\/img\/clouda.png",
+		"outputAbbreviatedPath": "\/img\/clouda.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
