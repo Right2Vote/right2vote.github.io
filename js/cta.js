@@ -34,4 +34,7 @@ jQuery(document).ready(function(){
     jQuery('#elections-ca-register').on('click', function() {
         window.open('http://elections.ca/register');   
     });
+    jQuery('#campus-list').on('click', function() {
+        window.open('http://www.elections.ca/content2.aspx?section=vote&dir=campus&document=index&lang=e');   
+    });
 });
