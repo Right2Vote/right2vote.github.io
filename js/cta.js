@@ -31,6 +31,9 @@ jQuery(document).ready(function(){
             window.open('https://www.facebook.com/right2votecanada');   
         }
     });
+    jQuery('#campus-button').on('click', function() {
+        window.location = ('/campus');   
+    });
     jQuery('#elections-ca-register').on('click', function() {
         window.open('http://elections.ca/register');   
     });

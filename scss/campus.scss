@@ -98,3 +98,14 @@
     width: 290px;
     margin: 0 auto;
 }
+
+.fb-text-container {  
+    width: 290px;
+    margin: 0 auto;
+}
+
+@media (min-width: 375px) {
+    .fb-text-container {  
+        width: 320px;
+    }
+}

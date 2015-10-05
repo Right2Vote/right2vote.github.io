@@ -484,6 +484,10 @@ HELPER CLASSES
   margin-top: 20px;
   padding-bottom: 25px; }
 
+.campus-button {
+  margin-top: -5px;
+  margin-bottom: 0; }
+
 .pre-register-button {
   text-align: center; }
 
@@ -1059,6 +1063,13 @@ HELPER CLASSES
   width: 290px;
   margin: 0 auto; }
 
+.fb-text-container {
+  width: 290px;
+  margin: 0 auto; }
+
+@media (min-width: 375px) {
+  .fb-text-container {
+    width: 320px; } }
 button {
   position: relative;
   vertical-align: top;
