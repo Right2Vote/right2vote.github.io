@@ -4,6 +4,25 @@
 POINTS
 --------------------*/
 
+.id-container {
+    padding-bottom: 20px;
+}
+
+.id-headline {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+}
+
+.id-main-headline {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    @extend .id-headline;
+    font-size: 45px;
+}
+
 .point-container {
     min-height: 100%;
 

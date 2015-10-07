@@ -10497,13 +10497,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/clouda.png": {
+	"\/img\/2-piece.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169535,
+		"inputAbbreviatedPath": "\/img\/2-piece.png",
+		"outputAbbreviatedPath": "\/img\/2-piece.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cloudA.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 9066,
-		"inputAbbreviatedPath": "\/img\/clouda.png",
-		"outputAbbreviatedPath": "\/img\/clouda.png",
+		"inputAbbreviatedPath": "\/img\/cloudA.png",
+		"outputAbbreviatedPath": "\/img\/cloudA.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -10651,6 +10662,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/two-piece.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 175787,
+		"inputAbbreviatedPath": "\/img\/two-piece.png",
+		"outputAbbreviatedPath": "\/img\/two-piece.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/voter_information_card.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -10658,6 +10680,17 @@
 		"initialSize": 54265,
 		"inputAbbreviatedPath": "\/img\/voter_information_card.jpg",
 		"outputAbbreviatedPath": "\/img\/voter_information_card.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vouch.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31553,
+		"inputAbbreviatedPath": "\/img\/vouch.png",
+		"outputAbbreviatedPath": "\/img\/vouch.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

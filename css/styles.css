@@ -485,16 +485,15 @@ HELPER CLASSES
   padding-bottom: 25px; }
 
 .campus-button {
-  margin-top: -5px;
-  margin-bottom: 0; }
+  margin-top: -5px; }
+
+.splash {
+  padding-bottom: 20px; }
 
 .pre-register-button {
   text-align: center; }
 
 @media (min-width: 768px) {
-  .splash {
-    padding-bottom: 40px; }
-
   .headline {
     padding-top: 75px;
     font-size: 30px; }
@@ -630,6 +629,21 @@ HELPER CLASSES
 /*--------------------
 POINTS
 --------------------*/
+.id-container {
+  padding-bottom: 20px; }
+
+.id-headline, .id-main-headline {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 60px;
+  color: black;
+  text-align: center; }
+
+.id-main-headline {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 45px; }
+
 .point-container {
   min-height: 100%; }
   .point-container .point-inner {

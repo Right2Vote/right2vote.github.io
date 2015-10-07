@@ -40,6 +40,8 @@
     color: white;
     padding-top: 65px;
     margin-bottom: 10px;
+    
+    
 }
 
 .supporting-statement {
@@ -67,18 +69,17 @@
 
 .campus-button {
     margin-top: -5px;
-    margin-bottom: 0;
+}
+
+.splash {
+    padding-bottom: 20px;   
 }
 .pre-register-button {
     text-align: center;
     
 }
 
-@media (min-width: 768px) {
-    .splash {
-        padding-bottom: 40px;   
-    }
-    
+@media (min-width: 768px) {    
     .headline {
         padding-top: 75px;
         font-size: 30px;   
