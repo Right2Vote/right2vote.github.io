@@ -67,12 +67,35 @@
 
 }
 
+.as-featured {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.press-img {
+    margin-top: 10px;
+    height: 30px;
+}
+
+@media (min-width: 768px) {
+    .press-img {
+        margin-top: 0px;
+        height: 35px;   
+    }
+}
+
+.press-img-cbc {
+    height: 50px;
+}
+
+
 .campus-button {
     margin-top: -5px;
 }
 
 .splash {
-    padding-bottom: 30px;   
+    padding-bottom: 20px;   
 }
 .pre-register-button {
     text-align: center;

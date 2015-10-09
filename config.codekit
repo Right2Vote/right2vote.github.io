@@ -10508,6 +10508,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/cbc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3332,
+		"inputAbbreviatedPath": "\/img\/cbc.png",
+		"outputAbbreviatedPath": "\/img\/cbc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/chronic_herald.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26999,
+		"inputAbbreviatedPath": "\/img\/chronic_herald.png",
+		"outputAbbreviatedPath": "\/img\/chronic_herald.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/chronic_stacked.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23368,
+		"inputAbbreviatedPath": "\/img\/chronic_stacked.png",
+		"outputAbbreviatedPath": "\/img\/chronic_stacked.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/cloudA.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -10669,6 +10702,39 @@
 		"initialSize": 175787,
 		"inputAbbreviatedPath": "\/img\/two-piece.png",
 		"outputAbbreviatedPath": "\/img\/two-piece.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Untitled-6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15466,
+		"inputAbbreviatedPath": "\/img\/Untitled-6.png",
+		"outputAbbreviatedPath": "\/img\/Untitled-6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vancity_stacked.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15285,
+		"inputAbbreviatedPath": "\/img\/vancity_stacked.png",
+		"outputAbbreviatedPath": "\/img\/vancity_stacked.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vancitybuzz.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 179274,
+		"inputAbbreviatedPath": "\/img\/vancitybuzz.png",
+		"outputAbbreviatedPath": "\/img\/vancitybuzz.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
