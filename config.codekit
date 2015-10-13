@@ -10706,17 +10706,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/Untitled-6.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 15466,
-		"inputAbbreviatedPath": "\/img\/Untitled-6.png",
-		"outputAbbreviatedPath": "\/img\/Untitled-6.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/vancity_stacked.png": {
 		"fileType": 32768,
 		"ignore": 0,
